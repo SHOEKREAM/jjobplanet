@@ -17,4 +17,9 @@ public class HomeController {
 	{
 		return "company";
 	}
+	
+	@GetMapping("/recruit")
+	public String recruit() {
+		return "recruit";
+	}
 }
