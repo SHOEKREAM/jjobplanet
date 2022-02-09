@@ -11,4 +11,15 @@ public class HomeController {
 	{
 		return "index";
 	}
+	
+	@GetMapping("/company")
+	public String company()
+	{
+		return "company";
+	}
+	
+	@GetMapping("/recruit")
+	public String recruit() {
+		return "recruit";
+	}
 }
