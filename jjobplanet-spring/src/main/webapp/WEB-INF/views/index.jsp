@@ -27,7 +27,7 @@
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
-	                    <div id="main-search-container" style="display: flex;">
+	                    <div id="main-search-container" style="display: flex; align-items: center">
 	                        <span class="material-icons">search</span>
 	                        <input type="text" style="width: 100%; margin: 0 24px;" placeholder="검색어를 입력해 주세요 ">
 	                        <span class="material-icons">clear</span>

@@ -11,5 +11,4 @@
         <div><a href="#">로그인</a></div>   
         <div style="margin-left: 16px;"><a href="#">회원가입</a></div>    
     </div> 
-
 </div>
