@@ -7,9 +7,9 @@
     대표번호   1644-5641 (10:00~18:00 / 점심시간 13:00~14:00) (주말 및 공휴일 휴무)
 </div>
 <div style="margin-top: 16px;">
-    <button>이용약관</button>
-    <button>개인정보처리방침</button>
-    <button>채용서비스 약관</button>
-    <button>공지사항</button>
-    <button>FAQ</button>
+    <button style="margin-right: 12px">이용약관</button>
+    <button style="margin-right: 12px">개인정보처리방침</button>
+    <button style="margin-right: 12px">채용서비스 약관</button>
+    <button style="margin-right: 12px">공지사항</button>
+    <button style="margin-right: 12px">FAQ</button>
 </div>

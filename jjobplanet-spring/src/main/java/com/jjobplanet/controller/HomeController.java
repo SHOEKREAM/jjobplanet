@@ -22,4 +22,9 @@ public class HomeController {
 	public String recruit() {
 		return "recruit";
 	}
+	
+	@GetMapping("/search")
+	public String search() {
+		return "search";
+	}
 }

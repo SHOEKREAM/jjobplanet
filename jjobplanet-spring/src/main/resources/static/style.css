@@ -40,14 +40,12 @@ dt { font-weight: bold; }
     border: solid 1px #707070;
 
 }
-
-            
+      
 .company-info-head, .recruit-info-head {
     width: 85px;
     margin-bottom: 12px;
     font-weight: bold;
 }
-
 
 .company-review-rating-head { width: 190px; }
 
@@ -73,11 +71,21 @@ dt { font-weight: bold; }
 
 #warp-main { margin: 30px 0; }
 #main-search-container {
-    width: 100%;
     height: 60px;
     border: solid black 1px;
 }
 
 #warp-footer{ background-color: #F5F5F5; }
+
+ #search-history {
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    
+}
+
+li {
+    list-style: none;
+}
 
 .item:hover { cursor: pointer; }

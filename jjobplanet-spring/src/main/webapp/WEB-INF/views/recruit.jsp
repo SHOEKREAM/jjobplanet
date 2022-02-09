@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         
         <!-- SCRIPT-->
+        <script src="./app.js"></script>
     </head>
     <body>
 		<div id="container">
@@ -32,8 +33,8 @@
 				            <dl>
 				                <dt class="recruit-info-head">기업명</dt>
 				                <dd>카카오</dd>
-				            <dl>
 				            </dl>
+				            <dl>
 				                <dt class="recruit-info-head">담당업무</dt>
 				                <dd class="recruit-info-content">개발</dd>
 				            </dl>

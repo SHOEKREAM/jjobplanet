@@ -16,7 +16,6 @@
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>
-        
     </head>
     <body>
 		<div id="container">
@@ -35,8 +34,8 @@
 	                        <span class="material-icons">clear</span>
 	                    </div>
 	                    
-	                    <div id="search-history" style="position:relative; visibility: visible; padding: 12px;">
-                            <div style="font-weight: bold">최근 검색어</div>
+	                    <div id="search-history" style="visibility: hidden; padding: 12px;">
+                            <div>최근 검색어</div>
                             <ul style="margin-top: 12px;">
                                 <li><a href="#">오피지지</a></li>
                                 <li><a href="#">우아한 형제들</a></li>
@@ -44,28 +43,6 @@
                                 <li><a href="#">카카오</a></li>
                                 <li><a href="#">쿠팡</a></li>
                             </ul>
-	                    </div>
-	
-	                    <div>
-	                        <div style="margin-top: 30px;">
-	                            <h3>별점이 높은 기업</h3>
-	                            <div style="display: grid; margin-top: 16px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px;">
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item " style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                            </div>
-	                        </div>
-	
-	                        <div style="margin-top: 30px;">
-	                            <h3>채용 추천 기업</h3>
-	                            <div style="display: grid; margin-top: 16px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px;">
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                                <div class="item" style="width: 291px; height: 128px; background-color: #F5F5F5;"></div>
-	                            </div>
-	                        </div>
 	                    </div>
 	                </div>
                	</main>

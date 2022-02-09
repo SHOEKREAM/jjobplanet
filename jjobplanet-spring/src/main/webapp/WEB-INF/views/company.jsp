@@ -19,6 +19,7 @@
         <!-- SCRIPT-->
         <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8a2c8a1ec83ccc1693155f71e7da24e0"></script>
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="./app.js"></script>
        
     </head>
     <body>
