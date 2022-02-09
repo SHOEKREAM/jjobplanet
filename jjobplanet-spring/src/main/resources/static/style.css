@@ -9,6 +9,8 @@
     color: black;
 }
 
+main { margin: 50px 0 }
+
 button {
     width: 155px;
     height: 40px;
@@ -22,6 +24,28 @@ input {
     outline: none;
     border: none;
 }
+
+dt, dd {
+    display: inline-block;
+
+}
+
+dt { font-weight: bold; }
+
+.gage { 
+    width: 186px;
+    height: 22px;
+    border: solid 1px #707070;
+
+}
+
+.company-info-head {
+    width: 85px;
+    margin-bottom: 12px;
+}
+
+
+.company-review-rating-head { width: 190px; }
 
 #wrap {
     width: 1200px;
