@@ -18,3 +18,8 @@ function notifyInput() {
     else document.getElementById("search-history").style.display = 'block';
 }
 document.addEventListener('mouseup', focusInput)
+
+function clearSearchInput(){
+	let input = document.getElementById("search-input");
+	input.value = '';
+}

@@ -12,33 +12,26 @@
 }
 
 main { margin: 50px 0 }
-
 button {
     width: 155px;
     height: 40px;
     background-color: transparent;
     border: solid #707070 1px;
 }
-
 button:hover{ cursor: pointer; }
-
 input {
     outline: none;
     border: none;
 }
-
-dt, dd {
-    display: inline-block;
-
-}
-
+dt, dd { display: inline-block; }
 dt { font-weight: bold; }
+li { list-style: none; }
+
 
 .gage { 
     width: 186px;
     height: 22px;
     border: solid 1px #707070;
-
 }
       
 .company-info-head, .recruit-info-head {
@@ -84,8 +77,10 @@ dt { font-weight: bold; }
     
 }
 
-li {
-    list-style: none;
-}
+
 
 .item:hover { cursor: pointer; }
+
+#input-clear {
+	cursor: pointer;
+}
