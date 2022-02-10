@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>공지사항</title>
+		<script src="jquery-3.6.0.js"></script>
+		<script>
+			window.onload = function()
+			{
+				$(".answer_row").hide();
+			}
+			
+			function ShowAnswer(id)
+			{
+				$("#answer"+id).toggle();
+			}
+		</script>
+		<style>
+			a
+			{
+				text-decoration:none;
+				color:black;
+			}
+			.upper_wrap > span
+			{
+				display: inline-block;
+				width: 220px;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				border: 1px solid black;
+			}		
+				
+			.upper_wrap
+			{
+				text-align: center;
+			}
+			
+			.body_wrap
+			{
+				width: 1000px;
+				align: center;
+				margin: 0 auto;
+			}
+
+			.question_row
+			{
+				height: 50px;
+				line-height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="upper_wrap">
+			<span><a href="policy.html">이용약관</a></span>
+			<span><a href="privacy.html">개인정보처리방침</a></span>
+			<span><a href="recrute.html">채용서비스 약관</a></span>
+			<span><a href="notice.html">공지사항</a></span>
+			<span><a href="faq.html">FAQ</a></span>
+		</div>
+		<div class="body_wrap">
+			<div class="content_wrap">
+				<h1>FAQ</h1>
+				<div class="question_row">
+					<span class="question"><a href="javascript:ShowAnswer(1);">Q : 잡플래닛은 어떻게 사용자를 보호하나요?</a></span>
+				</div>
+				<div id="answer1" class="answer_row">
+					<span>
+						A : 잡플래닛은 사용자 정보를 최소한으로 수집합니다. 정보를 수집하지 않기 때문에 유출될 정보도 없습니다.
+						잡플래닛은 사용자를 보호하기 위해 다양한 장치를 갖췄습니다. 사용자가 리뷰 작성 중 실수로 자신의 신분을 드러내는 경우, 해당 리뷰는 등록되지 않습니다. 잡플래닛의 필터링 시스템과 전문 관리 인력에 의해 사용자가 다시 한 번 검토하도록 되돌려 보내지기 때문입니다.
+					</span>
+				</div>
+				<div class="question_row">
+					<span class="title"><a href="javascript:ShowAnswer(2);">Q : 잡플래닛의 정보는 어떻게 이용할 수 있나요?</a></span>
+				</div>
+				<div id="answer2" class="answer_row">
+					<span>
+						A : 잡플래닛에서는 누구나 전·현직 직원이 남긴 평점과 기업리뷰, 연봉정보, 면접후기 등을 찾아볼 수 있습니다.
+						회원님의 경험을 바탕으로 리뷰, 연봉, 면접에 관한 정보를 작성해 주시면, 같은 카테고리의 게시글들을 승인된 날로부터 1년동안 무료로 열람할 수 있습니다.
+						게시글 작성이 어려운 경우에는 열람권을 구입하시면 한달 간 모든 게시글을 열람할 수 있습니다. 잡플래닛 제휴대학교 학생 회원은 제한 없이 콘텐츠를 열람할 수 있습니다.
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
