@@ -21,34 +21,87 @@
 		<div id="container">
             <div id="wrap">
                 <!-- HEADER -->
-                <header id="warp-header">
+                <header>
 					<jsp:include page="./header.jsp"/>
                 </header>
                 
                 <!--  MAIN -->
                	<main>
-               		 <div id="warp-main">
-	                    <div id="main-search-container" style="display: flex; align-items: center">
-	                        <span class="material-icons">search</span>
-	                        <input type="text" style="width: 100%; margin: 0 24px;" placeholder="검색어를 입력해 주세요 ">
-	                        <span class="material-icons">clear</span>
-	                    </div>
-	                    
-	                    <div id="search-history" style="position:absolute; visibility: hidden; padding: 12px;">
-                            <div>최근 검색어</div>
-                            <ul style="margin-top: 12px;">
-                                <li><a href="#">오피지지</a></li>
-                                <li><a href="#">우아한 형제들</a></li>
-                                <li><a href="#">토스</a></li>
-                                <li><a href="#">카카오</a></li>
-                                <li><a href="#">쿠팡</a></li>
-                            </ul>
-	                    </div>
+               		<div>
+               			<div style="display:flex;">
+               				<div class="search-filter" >
+           						<span style="width: 100%; margin-right: 16px">채용분야</span>
+           						<span class="material-icons">expand_more</span>
+               				</div>
+               				<div class="search-filter" >
+                              	<span style="width: 100%; margin-right: 16px;" >산업</span>
+                              	<span class="material-icons">expand_more</span>
+                            </div>
+                            <div class="search-filter" >
+                              	<span style="width: 100%; margin-right: 16px">활동분야</span>
+                              	<span class="material-icons">expand_more</span>
+                            </div>
+                            <div class="search-filter" >
+                              	<span style="width: 100%; margin-right: 16px">지역</span>
+                              	<span class="material-icons">expand_more</span>
+                            </div>
+               			</div>
+
+                        <div id="search-result" style="margin-top: 10px;">
+                            <div class="search-result-item" onclick="location.href='./company'">
+                                <div style="width: 100%; margin-left: 16px;">
+                                    <div>카카오</div>
+                                    <div>iOS 개발자 채용</div>
+                                    <div>iOS · Swift · autolayout · RESTful-API · Firebase · FCM  · MVVM · GIT</div>
+                                </div>
+                                <div style="margin-right: 16px;">
+                                    <button style="display: block;" onclick="addWishlist();">관심 기업 등록</button>
+                                    <button style="display: block; margin-top: 10px ;" onclick="applyCompany();">지원하기</button>
+                                </div>
+                            </div>
+
+                            <div class="search-result-item" onclick="location.href='./company'" >
+                                <div style="width: 100%; margin-left: 16px;">
+                                    <div>카카오</div>
+                                    <div >iOS 개발자 채용</div>
+                                    <div>iOS · Swift · autolayout · RESTful-API · Firebase · FCM  · MVVM · GIT</div>
+                                </div>
+                                <div style="margin-right: 16px;">
+                                    <button style="display: block;" onclick="addWishlist();">관심 기업 등록</button>
+                                    <button style="display: block; margin-top: 10px ;" onclick="applyCompany();">지원하기</button>
+                                </div>
+                            </div>
+                            
+                            <div class="search-result-item" onclick="location.href='./company'">
+                                <div style="width: 100%; margin-left: 16px;">
+                                    <div>카카오</div>
+                                    <div >iOS 개발자 채용</div>
+                                    <div>iOS · Swift · autolayout · RESTful-API · Firebase · FCM  · MVVM · GIT</div>
+                                </div>
+                                <div style="margin-right: 16px;">
+                                    <button style="display: block;" onclick="addWishlist();">관심 기업 등록</button>
+                                    <button style="display: block; margin-top: 10px ;" onclick="applyCompany();">지원하기</button>
+                                </div>
+                            </div>
+                            <div class="search-result-item" onclick="location.href='./company'">
+                                <div style="width: 100%; margin-left: 16px;">
+                                    <div>카카오</div>
+                                    <div >iOS 개발자 채용</div>
+                                    <div>iOS · Swift · autolayout · RESTful-API · Firebase · FCM  · MVVM · GIT</div>
+                                </div>
+                                <div style="margin-right: 16px;">
+                                    <button style="display: block;" onclick="addWishlist();">관심 기업 등록</button>
+                                    <button style="display: block; margin-top: 10px ;" onclick="applyCompany();">지원하기</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+
 	                </div>
                	</main>
 
                 <!-- FOOTER -->
-                <footer id="warp-footer" style="padding: 30px;">	 
+                <footer>	 
 					<jsp:include page="./footer.jsp"/>
                 </footer>
             </div>

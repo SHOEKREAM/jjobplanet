@@ -28,3 +28,13 @@ function search()
 {
 	console.log('검색!');
 }
+
+function applyCompany()
+{
+	alert('지원');
+}
+
+function addWishlist()
+{
+	alert('관심 기업 등록');
+}
