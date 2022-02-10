@@ -23,3 +23,8 @@ function clearSearchInput(){
 	let input = document.getElementById("search-input");
 	input.value = '';
 }
+
+function search()
+{
+	console.log('검색!');
+}
