@@ -12,42 +12,33 @@
 }
 
 main { margin: 50px 0 }
-
 button {
     width: 155px;
     height: 40px;
     background-color: transparent;
     border: solid #707070 1px;
 }
-
 button:hover{ cursor: pointer; }
-
 input {
     outline: none;
     border: none;
 }
-
-dt, dd {
-    display: inline-block;
-
-}
-
+dt, dd { display: inline-block; }
 dt { font-weight: bold; }
+li { list-style: none; }
+
 
 .gage { 
     width: 186px;
     height: 22px;
     border: solid 1px #707070;
-
 }
-
-            
+      
 .company-info-head, .recruit-info-head {
     width: 85px;
     margin-bottom: 12px;
     font-weight: bold;
 }
-
 
 .company-review-rating-head { width: 190px; }
 
@@ -73,11 +64,40 @@ dt { font-weight: bold; }
 
 #warp-main { margin: 30px 0; }
 #main-search-container {
-    width: 100%;
     height: 60px;
     border: solid black 1px;
 }
 
 #warp-footer{ background-color: #F5F5F5; }
 
+ #search-history {
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    
+}
+
 .item:hover { cursor: pointer; }
+
+#input-clear {
+	cursor: pointer;
+}
+
+.search-result-item {
+	display: flex; 
+	align-items: center; 
+	height: 170px; 
+	margin-bottom: 10px;
+	border: solid black 1px;
+}
+
+.search-filter {
+	width: 130px; 
+	height: 40px;
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
+	padding: 0 8px; 
+	margin-right: 16px; 
+	border: solid 1px black;
+}
