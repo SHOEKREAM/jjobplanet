@@ -23,12 +23,11 @@
        
     </head>
     <body>
-    
 	    <div id="container">
             <div id="wrap">
             
            	 	<!-- HEADER -->
-                <header id="warp-header">
+                <header>
 					<jsp:include page="./header.jsp"/>
                 </header>
 	            
@@ -213,11 +212,11 @@
 	        
 	            </main>
 	        	<!-- FOOTER -->
-                <footer id="warp-footer" style="padding: 30px;">	 
+                <footer>	 
 					<jsp:include page="./footer.jsp"/>
                 </footer>
-	        <div>
-            
+	        </div>
+           	
         </div>
     </body>
 </html>

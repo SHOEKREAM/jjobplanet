@@ -21,15 +21,14 @@
 		<div id="container">
             <div id="wrap">
                 <!-- HEADER -->
-                <header id="warp-header">
+                <header>
 					<jsp:include page="./header.jsp"/>
                 </header>
                 
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
-	                    <div>
-				            <div style="font-size: 30px; margin-bottom: 30px; font-weight: bold;">Java Spring Engineer</div>
+	                    <div style="font-size: 30px; margin-bottom: 30px; font-weight: bold;">Java Spring Engineer</div>
 				            <dl>
 				                <dt class="recruit-info-head">기업명</dt>
 				                <dd>카카오</dd>
@@ -55,12 +54,11 @@
 				                    <button>관심기업 등록</button>
 				                </div>
 				            </div>
-				        </div>
 	                </div>
                	</main>
 
                 <!-- FOOTER -->
-                <footer id="warp-footer" style="padding: 30px;">	 
+                <footer>	 
 					<jsp:include page="./footer.jsp"/>
                 </footer>
             </div>

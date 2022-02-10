@@ -34,7 +34,7 @@
 	                        <span class="material-icons">clear</span>
 	                    </div>
 	                    
-	                    <div id="search-history" style="visibility: hidden; padding: 12px;">
+	                    <div id="search-history" style="position:absolute; visibility: hidden; padding: 12px;">
                             <div>최근 검색어</div>
                             <ul style="margin-top: 12px;">
                                 <li><a href="#">오피지지</a></li>

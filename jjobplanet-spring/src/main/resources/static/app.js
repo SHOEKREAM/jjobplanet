@@ -2,22 +2,19 @@
  * 
  */
  
- let isFocusedInput = false;
-
-
+let isFocusedInput = false;
+	
 function focusInput() {
-    const focus = document.activeElement;
-	console.log(focus);
-
+    const focus = document.activeElement.id;
+		
     if( focus === 'search-input' && isFocusedInput == false) isFocusedInput = true;
     else isFocusedInput = false;
 
     notifyInput();                
-
 }
 
 function notifyInput() {
-    if(isFocusedInput == false) document.getElementById("search-history").style.display = 'hidden';
+    if(isFocusedInput == false) document.getElementById("search-history").style.display = 'none';
     else document.getElementById("search-history").style.display = 'block';
 }
-document.addEventListener("mouseup", focusInput(), false);
+document.addEventListener('mouseup', focusInput)
