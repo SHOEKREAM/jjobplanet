@@ -33,4 +33,29 @@ public class HomeController {
 	public String search() {
 		return "search";
 	}
+
+	@GetMapping("/policy")
+	public String policy() {
+		return "policy";
+	}
+
+	@GetMapping("/privacy")
+	public String privacy() {
+		return "privacy";
+	}
+
+	@GetMapping("/recruitService")
+	public String recruitService() {
+		return "recruitService";
+	}
+
+	@GetMapping("/notice")
+	public String notice() {
+		return "notice";
+	}
+
+	@GetMapping("/faq")
+	public String faq() {
+		return "faq";
+	}
 }

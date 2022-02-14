@@ -105,3 +105,66 @@ li { list-style: none; }
 	margin-right: 16px; 
 	border: solid 1px black;
 }
+
+.policy_upper_wrap > span
+{
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+}		
+    
+.policy_upper_wrap
+{
+    text-align: center;
+}
+
+.policy_body_wrap
+{
+    width: 1000px;
+    align: center;
+    margin: 0 auto;
+}
+
+.policy_contents_wrap ul li
+{
+    margin: 20px 0px;
+}
+
+.question_row
+{
+    height: 50px;
+    line-height: 50px;
+}
+
+.notice_top_row
+{
+    height: 70px;
+    line-height: 70px;
+}
+
+.notice_td_row
+{
+    height: 50px;
+    line-height: 50px;
+}
+
+.notice_note_row
+{
+    width:900px;
+
+}
+.notice_date
+{
+    float: right;
+    width: 200px;
+    text-align: center;
+}
+
+.faq_question_row
+{
+    height: 50px;
+    line-height: 50px;
+}
