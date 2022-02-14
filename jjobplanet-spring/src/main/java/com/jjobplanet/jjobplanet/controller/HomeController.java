@@ -1,4 +1,4 @@
-package com.jjobplanet.controller;
+package com.jjobplanet.jjobplanet.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +10,12 @@ public class HomeController {
 	public String index()
 	{
 		return "index";
+	}
+
+	@GetMapping("/default")
+	public String default1()
+	{
+		return "default";
 	}
 	
 	@GetMapping("/company")
