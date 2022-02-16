@@ -20,12 +20,6 @@ public class HomeController {
 		return "index";
 	}
 
-	@GetMapping("/default")
-	public String default1()
-	{
-		return "default";
-	}
-	
 	@GetMapping("/company")
 	public String company()
 	{
@@ -33,7 +27,8 @@ public class HomeController {
 	}
 	
 	@GetMapping("/recruit")
-	public String recruit() {
+	public String recruit()
+	 {
 		return "recruit";
 	}
 	
@@ -46,8 +41,59 @@ public class HomeController {
 		
 		cookie.setMaxAge(0);
 		cookie.setPath("/");
+
 		return "search";
 	}
+
+	@GetMapping("/default")
+	public String default1() 
+	{
+		return "default";
+	}
+	@GetMapping("/mypage_company")
+	public String mypage_company() 
+	{
+		return "mypage_company";
+	}
+	@GetMapping("/passwordchange_company")
+	public String passwordchange_company() 
+	{
+		return "passwordchange_company";
+	}
+	@GetMapping("/passwordchange")
+	public String passwordchange() 
+	{
+		return "passwordchange";
+	}
+	@GetMapping("/jobpostinglist")
+	public String jobpostinglist() 
+	{
+		return "jobpostinglist";
+	}
+	@GetMapping("/recruitment")
+	public String recruitment() 
+	{
+		return "recruitment";
+	}
+	@GetMapping("/mypage")
+	public String mypage() 
+	{
+		return "mypage";
+	}
+	@GetMapping("/reviewhistory")
+	public String reviewhistory() 
+	{
+		return "reviewhistory";
+	}
+	@GetMapping("/writereview")
+	public String writereview() 
+	{
+		return "writereview";
+	}
+	@GetMapping("/interestedcompany")
+	public String interestedcompany() 
+	{
+		return "interestedcompany";
 
 	@GetMapping("/policy")
 	public String policy() {
