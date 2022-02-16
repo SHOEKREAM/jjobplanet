@@ -33,61 +33,73 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div class = "main_S">
-                            <div class = "container_S">
-                                <div class = "side_menu_S">
-                                    <div class = side_menu_profile_image><span class="material-icons-outlined"><a href="./mypage">face</a></span></div>
-                                    <div> <a href="./passwordchange">비밀번호 변경</a></div>
-                                    <div><a href="./interestedcompany">관심 기업</a></div>
-                                    <div> <a href="./reviewhistory">리뷰 작성 내역</a></div>
-                                    <div> <a href="./writereview.jsp">리뷰 작성</a></div>
-                                </div>
-                                <!-- 내용 -->
-                                <div class = "review_contents">
-                                    <div class = "contents_item_head_S">리뷰 작성 내역</div>
-                                    <div id = "review_contents_message">총 2개의 리뷰 작성 내역이 있습니다.</div>
-                                    <div id = "review_contents_title">
-                                        <div style="width : 5px;  float : left">　</div>
-                                        <div style="width : 80px;  float : left">#</div>
-                                        <div style="width : 300px; float : left">기업명</div>
-                                        <div style="width : 140px; float : left">고용 상태</div>
-                                        <div style="width : 200px; float : left">작성일</div>
-                                    </div>
-                                </div>
-                                <div class = "review_contents_notice">
-                                    <div style="width : 80px;  float : left">1</div>
-                                    <div style="width : 310px; float : left"><a href="#">오피지지</a></div>
-                                    <div style="width : 110px; float : left">채용중</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "review_contents_notice">
-                                    <div style="width : 80px;  float : left">2</div>
-                                    <div style="width : 310px; float : left"><a href="#">(주)구글 코리아</a></div>
-                                    <div style="width : 110px; float : left">채용중</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "review_contents_notice">
-                                    <div style="width : 80px;  float : left">3</div>
-                                    <div style="width : 310px; float : left"><a href="#">삼성 전자</a></div>
-                                    <div style="width : 110px; float : left">채용대기</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "review_contents_notice">
-                                    <div style="width : 80px;  float : left">4</div>
-                                    <div style="width : 310px; float : left"><a href="#">(주)넥슨 지티</a></div>
-                                    <div style="width : 110px; float : left">채용마감</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                            </div><!-- 내용 -->
-                       </div>
+                        <div style="display: flex;">
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
+                                <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
+                            </div>
+                            <div>
+                                <h2>리뷰 작성 내역</h2>
+                                <div id = "review_contents_message">총 2개의 리뷰 작성 내역이 있습니다.</div>
+                                <table style="width: 897px; border-collapse: collapse;">
+                                    <thead style="height: 60px;">
+                                        <th style="border-bottom: solid black 1px; width: 89px; text-align: start;">#</th>
+                                        <th style="border-bottom: solid black 1px; width: 416px; text-align: start;">기업명</th>
+                                        <th style="border-bottom: solid black 1px; width: 214px; text-align: center;">고용 상태</th>
+                                        <th style="border-bottom: solid black 1px; width: 89px; text-align: center;">작성일</th>
+                                        <th style="border-bottom: solid black 1px; width: 89px; text-align: center;">　</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="height: 60px;">
+                                            <td style="border-bottom: solid black 1px;">1</td>
+                                            <td style="border-bottom: solid black 1px;">오피지지</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">채용중</td>
+                                            <td style="border-bottom: solid black 1px;">2022-01-28</td>
+                                            <td style="align-items: center; border-bottom: solid black 1px; text-align: center;">
+                                                <div>수정</div>
+                                                <div>삭제</div>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr style="height: 60px;">
+                                            <td style="border-bottom: solid black 1px;">2</td>
+                                            <td style="border-bottom: solid black 1px;">(주)구글 코리아</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">채용중</td>
+                                            <td style="border-bottom: solid black 1px;">2022-01-28</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">
+                                                <div>수정</div>
+                                                <div>삭제</div>
+                                            </td>
+                                        </tr>
+                                        <tr style="height: 60px;">
+                                            <td style="border-bottom: solid black 1px;">3</td>
+                                            <td style="border-bottom: solid black 1px;">삼성 전자</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">채용대기</td>
+                                            <td style="border-bottom: solid black 1px;">2022-01-28</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">
+                                                <div>수정</div>
+                                                <div>삭제</div>
+                                            </td>
+                                        </tr>
+                                        <tr style="height: 60px;">
+                                            <td style="border-bottom: solid black 1px;">4</td>
+                                            <td style="border-bottom: solid black 1px;">(주)넥슨 지티</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">채용마감</td>
+                                            <td style="border-bottom: solid black 1px;">2022-01-28</td>
+                                            <td style="border-bottom: solid black 1px; text-align: center;">
+                                                <div>수정</div>
+                                                <div>삭제</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 내용 -->
+                           
+                        </div><!-- 내용 -->
 	                </div>
                	</main>
 

@@ -31,32 +31,39 @@
                 
                 <!--  MAIN -->
                	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <div class = "main_S">
-                            <div class = "container_S">
-                                <div class = "side_menu_S">
-                                    <div class = side_menu_profile_image_S><span class="material-icons-outlined"><a href="./mypage">face</a></span></div>
-                                    <div> <a href="./passwordchange">비밀번호 변경</a></div>
-                                    <div><a href="./interestedcompany">관심 기업</a></div>
-                                    <div> <a href="./reviewhistory">리뷰 작성 내역</a></div>
-                                    <div> <a href="writereview">리뷰 작성</a></div>
-                                </div>
-                                <!-- 내용 -->
-                                <div class = "contents_S">
-                                    <div class = "contents_item_head_S">기본정보</div>
-                                    <div class = "contents_item_mid1_S">
-                                    <div  class="contents_text">성별</div>
-                                    <div style="margin: 10px 0px">
-                                        <input type="radio" id="contactChoice1" name="contact" value="man" style="font-size:20pt ; width:15px; height:15px">
-                                           <label for="contactChoice1">남자</label>
-                                       <input type="radio" id="contactChoice2" name="contact" value="woman"style="font-size:20pt ; width:15px;height:15px ">
-                                            <label for="contactChoice2">여자</label></div>
-                                    </div>
-                                    <div class = "contents_item_mid2_S">
-                                    <div class="contents_text">출생년도</div>
+                    <div id="warp-main">
+                    <!-- 내용 -->
+                    <div style="display: flex;">
+                        <div style="width: 243px; height: 326px; text-align: center;">
+                            <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                            <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
+                            <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
+                            <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
+                            <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
+                        </div>
+                        <!-- 내용 -->
+                        <div>
+                            <h2>기본정보</h2>
+                            <div>
+                                <div style="margin-top: 40px; display: flex;">
+                                    <div>
                                         <div>
-                                            <select name ="years" style ="width :300px;">		 						
+                                            <div>성별</div>
+                                            <div style="margin-top: 16px;">
+                                                <input type="radio" id="contactChoice1" name="contact" value="man" style="font-size:20pt ; width:15px; height:15px"> <label for="contactChoice1">남자</label>
+                                                <input type="radio" id="contactChoice2" name="contact" value="woman"style="font-size:20pt ; width:15px;height:15px "> <label for="contactChoice2">여자</label>
+                                            </div>
+                                        </div>
+                                        <div style="margin-top: 30px;">
+                                            <div>현재(관심)직종</div>
+                                            <input type ="text" style="width: 287px; height: 40px; margin-top: 16px;">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div>
+                                            <div>출생년도</div>
+                                            <select name ="years" style="width: 287px; height: 40px;">		 						
                                                 <option>년도</option>
                                                 <option>1981</option>
                                                 <option>1982</option>
@@ -83,18 +90,11 @@
                                                 <option>2003</option>
                                                 <option>2004</option>
                                             </select>
-                                        </div>
-                                    </div>	
-                                    <div class = "contents_item_mid3_S">
-                                    <div  class="contents_text">현재(관심)직종</div>
-                                        <div>
-                                           <input type ="text" style ="width :300px;">
-                                        </div>
-                                    </div>	
-                                    <div class = "contents_item_mid4_S">
-                                        <div class="contents_text">총 경력</div>
-                                        <div>
-                                            <select name ="career" style ="width :300px;">
+                                        </div>	
+                                      
+                                        <div style="margin-top: 30px;">
+                                            <div>총 경력</div>
+                                            <select name ="career" style="width: 287px; height: 40px; margin-top: 16px;">
                                                 <option>0년</option>
                                                 <option>1년~5년</option>
                                                 <option>5년~10년</option>
@@ -102,19 +102,26 @@
                                                 <option>15년~</option>
                                             </select>
                                         </div>
-                                    </div><!-- 내용 -->	
-                                    <div class ="content_foot1_S"><button onClick="window.location.reload()" style="width:300px;height:30px;">정보 변경</button></div>
-                                    <div class ="content_foot2_S"><button onClick="window.location.reload()" style="width:300px;height:30px;">회원 탈퇴</button></div>
+                                    </div>
+                                </div>  
+                    
+                               
+                                <div style="display: flex; margin-top: 40px;">
+                                    <button onClick="window.location.reload()" style="width:300px;height:30px;">정보 변경</button>
+                                    <button onClick="window.location.reload()" style="width:300px;height:30px;">회원 탈퇴</button>
                                 </div>
                             </div>
                         </div>
-	                </div>
+                    </div>
+              
                	</main>
 
-                <!-- FOOTER -->
+                    <!-- FOOTER -->
                 <footer>	 
 					<jsp:include page="./footer.jsp"/>
                 </footer>
+
+               
             </div>
         </div>
     </body>

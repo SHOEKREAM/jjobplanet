@@ -32,7 +32,6 @@ public class HomeController {
 		return "recruit";
 	}
 	
-
 	@RequestMapping(value = "/search.do", method = RequestMethod.GET)
 	public String search(HttpServletRequest request) {
 		
@@ -42,6 +41,9 @@ public class HomeController {
 		
 		cookie.setMaxAge(0);
 		cookie.setPath("/");
+
+		return "search";
+	}
 
 
 	@GetMapping("/default")
@@ -93,7 +95,7 @@ public class HomeController {
 	public String interestedcompany() 
 	{
 		return "interestedcompany";
-
+	}
 	@GetMapping("/policy")
 	public String policy() {
 		return "policy";

@@ -30,57 +30,122 @@
                 </header>
                 <!--  MAIN -->
                	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <div class = "main_S">
-                            <div class = "container_S">
-                                <div class = "side_menu_S">
-                                    <div id = side_menu_profile_image><span class="material-icons-outlined"><a href="./mypage">face</a></span></div>
-                                    <div> <a href="./passwordchange">비밀번호 변경</a></div>
-                                    <div><a href="./interestedcompany">관심 기업</a></div>
-                                    <div> <a href="./reviewhistory">리뷰 작성 내역</a></div>
-                                    <div> <a href="./writereview">리뷰 작성</a></div>
-                                </div>
-                                <!-- 내용 -->
-                                <div id = "write_contents">
-                                    <div id = "write_contents_item_head">리뷰 작성 </div>
-                                    <div id = "write_contents_message">모든 정보는 익명으로 처리되니 걱정마세요.</div>
-                                </div>
-                                <div id = "write_contents_notice">
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">기업명</div>
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
+                    <div id="warp-main">
+                        <div style="display: flex;">
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
+                                <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
+                            </div>
+                            <!-- 내용 -->
+                            <div>
+                                <h2>리뷰 작성</h2>
+                                <div>모든 정보는 익명으로 처리되니 걱정마세요.</div>
+                                <div id = "write_contents_notice" style="margin-top: 30px;">
+                                    <div style="display: flex; margin-bottom: 16px;">
+                                        <div style="width: 100px;">기업명</div>
+                                        <input type="text" >
+                                    </div>
+
+                                    <div style=" display: flex; margin-bottom: 16px;">
+                                        <div style="display: flex; align-items: center; width: 100px;">현(전)직장</div>	
+                                        <input type="text">
+                                    </div>
+                                    <div style=" display: flex; margin-bottom: 16px;">
+                                        <div style="display: flex; align-items: center; width: 100px;">직종</div>	
+                                        <input type="text" >
+                                    </div>
+                                    <div style=" display: flex; margin-bottom: 16px;">
+                                        <div style="display: flex; align-items: center; width: 100px;">고용형태</div>	
+                                        <input type="text" >
+                                    </div>
+                                    <div style=" display: flex; margin-bottom: 16px;">
+                                        <div style="display: flex; align-items: center; width: 100px;">근무지역</div>	
+                                        <input type="text" >
+                                    </div>
+                                    <div style=" display: flex; margin-bottom: 16px;">
+                                        <div style="display: flex; align-items: center; width: 100px;" >평점</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
                                     
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">현(전)직장</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">직종</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">고용형태</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">근무지역</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">평점</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px"></div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">승진기회 및 가능성</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px">별점</div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">복지 및 급여</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px">별점</div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">업무의 삶의 균형</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px">별점</div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">사내 문화</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px">별점</div>
-                                    <div style="font-weight: 600; width : 150px; height : 30px; float:left; margin : 10px 0px">경영진</div>	
-                                    <div><input type="text" style =" width : 200px; height : 30px; margin : 10px 0px">별점</div>
-                                    <div style="font-weight: 600; width : 100px; height : 30px; float:left; margin : 10px 0px">기업의 장점</div>	
-                                    <div><textarea style="width : 800px; height : 150px"></textarea></div>
-                                    <div style="font-weight: 600; width : 100px; height : 30px; float:left; margin : 10px 0px">기업의 단점</div>
-                                    <div><textarea style="width : 800px; height : 150px"></textarea></div>
-                                    <div style="font-weight: 600; width : 110px; height : 30px; float:left; margin : 10px 0px">기업의 한줄평</div>	
-                                    <div><textarea style="width : 800px; height : 30px"></textarea></div>
-                                    <div style="width : 800px; height : 30px"></div>
-                                    <div><button style="width :300px; height : 30px">저장 하기</button></div>
+                                    
+                                    <div style="margin-bottom: 16px;">
+                                        <div style="margin-bottom: 16px;">기업의 장점</div>	
+                                        <textarea style="width : 800px; height : 150px"></textarea>
+                                    </div>
+                                    
+                                    <div style="margin-bottom: 16px;">
+                                        <div style="margin-bottom: 16px;">기업의 단점</div>
+                                        <textarea style="width : 800px; height : 150px"></textarea>
+                                    </div>
+                                    
+                                    <div style="margin-bottom: 16px;">
+                                        <div style="margin-bottom: 16px;">기업의 한줄평</div>	
+                                        <textarea style="width : 800px; height : 30px"></textarea>
+                                    </div>
+
+                                    <div style="display: flex; margin-bottom: 16px;">
+                                        <div style="width: 186px;" >승진기회 및 가능성</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; margin-bottom: 16px;">
+                                        <div style="width: 186px;" >복지 및 급여</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; margin-bottom: 16px;">
+                                        <div  style="width: 186px;">업무의 삶의 균형</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; margin-bottom: 16px;">
+                                        <div  style="width: 186px;">사내 문화</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-bottom: 16px;">
+                                        <div  style="width: 186px;">경영진</div>	
+                                        <div style="display: flex;">
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                    </div>
+                                    <button>저장 하기</button>
                                 </div>
-                            </div><!-- 내용 -->
-                       </div>
+                            </div>
+                        </div>
 	                </div>
                	</main>
 
