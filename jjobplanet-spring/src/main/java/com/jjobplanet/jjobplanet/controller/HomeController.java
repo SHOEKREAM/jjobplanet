@@ -45,6 +45,7 @@ public class HomeController {
 		return "search";
 	}
 
+
 	@GetMapping("/default")
 	public String default1() 
 	{
