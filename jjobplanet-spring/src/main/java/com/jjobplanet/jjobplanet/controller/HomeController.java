@@ -95,7 +95,7 @@ public class HomeController {
 	public String interestedcompany() 
 	{
 		return "interestedcompany";
-
+	}
 	@GetMapping("/policy")
 	public String policy() {
 		return "policy";

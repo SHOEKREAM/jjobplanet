@@ -30,19 +30,20 @@
                 
                 <!--  MAIN -->
                	<main>
-               		 <div id="warp-main">
+               		 <div id="warp-main">    
 	                    <!-- 내용 -->
                         <div id = "main_company">
                             <div id = "container_company">
-                                <div id = "side_menu_company">
-                                    <div id = side_menu_profile_image_company><span class="material-icons-outlined"><a href="mypage_company">face</a></span></div>
-                                    <div> <a href="./passwordchange_company">비밀번호 변경</a></div>
-                                    <div> <a href="./jobpostinglist">채용공고 작성내역</a></div>
-                                    <div> <a href="./recruitment">채용공고 작성</a></div>
+                                <div style="width: 243px; height: 326px; text-align: center;">
+                                    <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                    <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
+                                    <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
+                                    <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
+                                    <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
                                 </div>
                                 <!-- 내용 -->
                                 <div id = "contents_company">
-                                    <div id = "contents_item_head_company">기업 정보</div>
+                                    <h2>기업 정보</h2>
                                     <div class = "contents_item_mid_company1">산업</div>
                                     <div class = "contents_item_mid_company2">포털,컨텐츠,커뮤니티 </div>
                                     <div class = "contents_item_mid_company1">사원수</div>	
@@ -65,8 +66,7 @@
                                 <div id ="content_foot2_company"><button onClick="window.location.reload()" style="width:200px;height:30px;">회원 탈퇴</button></div>
                             </div>
                         </div>
-                        
-                        
+
 	                </div>
                	</main>
 

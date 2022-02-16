@@ -33,28 +33,26 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div class = "main_S">
-                            <div class = "container_S">
-                                <div class = "side_menu_S">
-                                    <div class = side_menu_profile_image_S><span class="material-icons-outlined"><a href="./mypage">face</a></span></div>
-                                    <div> <a href="./passwordchange">비밀번호 변경</a></div>
-                                    <div><a href="./interestedcompany">관심 기업</a></div>
-                                    <div> <a href="reviewhistory">리뷰 작성 내역</a></div>
-                                    <div> <a href="./writereview">리뷰 작성</a></div>
-                                </div>
-                                <!-- 내용 -->
-                                <div class = "password_contents_S">
-                                    <div class = "password_contents_item_head">비밀번호 변경</div>
-                                    <div class = "password">현재 비밀번호</div>
-                                    <div><input type="text"></div>
-                                    <div class = "new_password">새 비밀번호</div>
-                                    <div><input type="text"></div>
-                                    <div class = "passwordok">새 비밀번호 확인</div>
-                                    <div><input type="text"></div>	
-                                    <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>
-                                </div><!-- 내용 -->	
+                        <div style="display: flex;" >
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
+                                <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
                             </div>
-                       </div>
+                            <!-- 내용 -->
+                            <div class = "password_contents_S">
+                                <h2>비밀번호 변경</h2>
+                                <div class = "password">현재 비밀번호</div>
+                                <div><input type="text"></div>
+                                <div class = "new_password">새 비밀번호</div>
+                                <div><input type="text"></div>
+                                <div class = "passwordok">새 비밀번호 확인</div>
+                                <div><input type="text"></div>	
+                                <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>
+                            </div><!-- 내용 -->	
+                        </div>
 	                </div>
                	</main>
 
