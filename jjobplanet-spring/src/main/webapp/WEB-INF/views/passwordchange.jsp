@@ -35,24 +35,35 @@
 	                    <!-- 내용 -->
                         <div style="display: flex;" >
                             <div style="width: 243px; height: 326px; text-align: center;">
-                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
                                 <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
                                 <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
                                 <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
                                 <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
                             </div>
                             <!-- 내용 -->
-                            <div class = "password_contents_S">
+                            <div>
                                 <h2>비밀번호 변경</h2>
-                                <div class = "password">현재 비밀번호</div>
-                                <div><input type="text"></div>
-                                <div class = "new_password">새 비밀번호</div>
-                                <div><input type="text"></div>
-                                <div class = "passwordok">새 비밀번호 확인</div>
-                                <div><input type="text"></div>	
-                                <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>
+                               
+                                <div style="margin-top: 30px;">
+                                    <div>현재 비밀번호</div>
+                                    <input type="text" style="margin-top: 16px">
+                                </div>
+                                <div style="display: flex; margin-top: 16px;">
+                                    <div style="margin-right: 16px;">
+                                        <div>새 비밀번호</div>
+                                        <input type="text" style="margin-top: 16px">
+                                    </div>
+                                    <div>
+                                        <div>새 비밀번호 확인</div>
+                                        <input type="text" style="margin-top: 16px">
+                                    </div>
+                                </div>
+                                <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>    
                             </div><!-- 내용 -->	
+                            
                         </div>
+                        
 	                </div>
                	</main>
 

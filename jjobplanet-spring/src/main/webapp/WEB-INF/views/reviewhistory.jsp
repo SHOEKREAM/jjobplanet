@@ -35,7 +35,7 @@
 	                    <!-- 내용 -->
                         <div style="display: flex;">
                             <div style="width: 243px; height: 326px; text-align: center;">
-                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
                                 <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
                                 <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
                                 <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
@@ -43,8 +43,8 @@
                             </div>
                             <div>
                                 <h2>리뷰 작성 내역</h2>
-                                <div id = "review_contents_message">총 2개의 리뷰 작성 내역이 있습니다.</div>
-                                <table style="width: 897px; border-collapse: collapse;">
+                                <div>총 2개의 리뷰 작성 내역이 있습니다.</div>
+                                <table style="border-collapse: collapse; margin-top: 30px;">
                                     <thead style="height: 60px;">
                                         <th style="border-bottom: solid black 1px; width: 89px; text-align: start;">#</th>
                                         <th style="border-bottom: solid black 1px; width: 416px; text-align: start;">기업명</th>
@@ -97,9 +97,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- 내용 -->
-                           
-                        </div><!-- 내용 -->
+                        </div>
 	                </div>
                	</main>
 
