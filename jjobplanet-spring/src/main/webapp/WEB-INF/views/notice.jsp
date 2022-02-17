@@ -81,6 +81,7 @@
                                 <div id="notice_notice2" class="notice_note_row">
                                     <span class="notice_note">공지내용입니다2</span>
                                 </div>
+                                <a href="<%= request.getContextPath() %>/noticeWrite.do"><input type="button" value="작성" style="float:right;"></a>
                             </div>
                         </div>
 	                </div>
