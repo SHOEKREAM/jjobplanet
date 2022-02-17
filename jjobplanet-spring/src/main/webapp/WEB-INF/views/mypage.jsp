@@ -45,25 +45,19 @@
                         <div>
                             <h2>기본정보</h2>
                             <div>
-                                <div style="margin-top: 40px; display: flex;">
-                                    <div>
-                                        <div>
+                                <div style="margin-top: 40px;">
+                                    <div style="margin-right: 30px; display: flex; margin-bottom: 30px;">
+                                        <div style="width: 387px;">
                                             <div>성별</div>
                                             <div style="margin-top: 16px;">
                                                 <input type="radio" id="contactChoice1" name="contact" value="man" style="font-size:20pt ; width:15px; height:15px"> <label for="contactChoice1">남자</label>
                                                 <input type="radio" id="contactChoice2" name="contact" value="woman"style="font-size:20pt ; width:15px;height:15px "> <label for="contactChoice2">여자</label>
                                             </div>
                                         </div>
-                                        <div style="margin-top: 30px;">
-                                            <div>현재(관심)직종</div>
-                                            <input type ="text" style="width: 287px; height: 40px; margin-top: 16px;">
-                                        </div>
-                                    </div>
-
-                                    <div>
+                                            
                                         <div>
                                             <div>출생년도</div>
-                                            <select name ="years" style="width: 287px; height: 40px;">		 						
+                                            <select name ="years" style="width: 287px; height: 40px; margin-top: 16px;">		 						
                                                 <option>년도</option>
                                                 <option>1981</option>
                                                 <option>1982</option>
@@ -90,9 +84,17 @@
                                                 <option>2003</option>
                                                 <option>2004</option>
                                             </select>
+                                        </div>
+                                            
+                                    </div>
+
+                                    <div style="display: flex; ">
+                                        <div style="width: 387px;">
+                                            <div>현재(관심)직종</div>
+                                            <input type ="text" style="margin-top: 16px;">
                                         </div>	
                                       
-                                        <div style="margin-top: 30px;">
+                                        <div>
                                             <div>총 경력</div>
                                             <select name ="career" style="width: 287px; height: 40px; margin-top: 16px;">
                                                 <option>0년</option>
@@ -107,8 +109,8 @@
                     
                                
                                 <div style="display: flex; margin-top: 40px;">
-                                    <button onClick="window.location.reload()" style="width:300px;height:30px;">정보 변경</button>
-                                    <button onClick="window.location.reload()" style="width:300px;height:30px;">회원 탈퇴</button>
+                                    <button onClick="window.location.reload()">정보 변경</button>
+                                    <button onClick="window.location.reload()">회원 탈퇴</button>
                                 </div>
                             </div>
                         </div>
