@@ -16,8 +16,8 @@
 	</div>
 </div>
 
-<div id="main-search-container" style="display: flex; align-items: center">
-    <span class="material-icons">search</span>
+<div id="main-search-container" style="display: flex; align-items: center; padding: 0 16px;">
+    <span class="material-icons" >search</span>
     <input type="text" id="search-input" style="width: 100%; margin: 0 24px; outline: none; border: none;" placeholder="검색어를 입력해 주세요 " onKeypress="javascript:if(event.keyCode===13){search()}">
     <span id="input-clear" class="material-icons" onclick="clearSearchInput()">clear</span>
 </div>
