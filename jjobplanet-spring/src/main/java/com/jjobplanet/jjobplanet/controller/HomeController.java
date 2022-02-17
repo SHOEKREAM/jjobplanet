@@ -120,4 +120,11 @@ public class HomeController {
 	public String faq() {
 		return "faq";
 	}
+
+	@RequestMapping(value="/noticeWrite.do")
+	public String noticeWrite()
+	{
+		return "noticeWrite";
+	}
+
 }
