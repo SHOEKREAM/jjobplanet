@@ -31,7 +31,7 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <form>
+                        <form name="companyJoin" method="post" action="">
                             <div> 
                                 <div style=" text-align: center; padding-right: 360px;"><h1>회원가입(기업)</h1></div>  
                                     <div class="join_div" style="display: flex; justify-content: center;" >                
@@ -46,13 +46,14 @@
                                             <div>주소</div>
                                         </div>
                                         <div style="width: 200px; flex-direction: column;">
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="password" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="60" name=""></div>
+                                            <div><input type="text" size="20" name="cmail"></div>
+                                            <div><input type="password" size="20" name="cpw"></div>
+                                            <div><input type="text" size="20" name="cname"></div>
+                                            <div><input type="text" size="20" name="ccategory"></div>
+                                            <div><input type="text" size="20" name="csize"></div>
+                                            <div><input type="text" size="20" name="ceoname"></div>
+                                            <div><input type="text" size="20" name="cinsurance"></div>
+                                            <div><input type="text" size="60" name="caddress"></div>
                                         </div>
                                         <div style="width: 100px; flex-direction: column;">
                                             <div><input type="button" value="중복확인" id="join_button"></div>
@@ -65,19 +66,20 @@
                                         </div>
                                         <div style="width: 200px; flex-direction: column;">
                                             <div><input type="" size="0"></div>
-                                            <div><input type="password" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
-                                            <div><input type="text" size="20" name=""></div>
+                                            <div><input type="password" size="20" name="cpwcheck"></div>
+                                            <div><input type="text" size="20" name="cnumber"></div>
+                                            <div><input type="text" size="20" name="cworkers"></div>
+                                            <div><input type="text" size="20" name="cdate"></div>
+                                            <div><input type="text" size="20" name="cmaintask"></div>
+                                            <div><input type="text" size="20" name="chomepage"></div>
                                         </div>                            
                                     </div>           
                                 </div>  
                             <div class="join_div" style="text-align: center;">
-                                    <div ><textarea style="width: 600px; text-align: center; height: 200px; "></textarea><br></div>
-                                    <div style="padding-right: 440px;"><input type="checkbox" >약관에 동의합니다.</div>
-                                    <div style="padding-right: 500px;"><a href="joinOk"><input type="button" value="가입완료" id="join_button"></a></div>
-                                </div>   
+                                <div ><textarea style="width: 600px; text-align: center; height: 200px; "></textarea><br></div>
+                                <div style="padding-right: 440px;"><input type="checkbox" >약관에 동의합니다.</div>
+                                <div style="padding-right: 500px;"><a href="joinOk"><input type="button" value="가입완료" id="join_button"></a></div>
+                            </div>   
                         </form>
                         
 	                </div>
