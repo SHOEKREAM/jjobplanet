@@ -10,8 +10,8 @@
 	    </div>    
 	    
 	    <div style="width: 100%; display: flex; justify-content: end;">
-	        <div><a href="#">로그인</a></div>   
-	        <div style="margin-left: 16px;"><a href="#">회원가입</a></div>    
+	        <div><a href="login">로그인</a></div>   
+	        <div style="margin-left: 16px;"><a href="join">회원가입</a></div>    
 	    </div> 
 	</div>
 </div>

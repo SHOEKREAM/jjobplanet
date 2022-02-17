@@ -120,4 +120,44 @@ public class HomeController {
 	public String faq() {
 		return "faq";
 	}
+
+	@GetMapping("/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping("/joinOk")
+	public String joinOk() {
+		return "joinOk";
+	}
+
+	@GetMapping("/individualJoin")
+	public String individualJoin() {
+		return "individualJoin";
+	}
+
+	@GetMapping("/companyJoin")
+	public String companyJoin() {
+		return "companyJoin";
+	}
+
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+
+	@GetMapping("/loginOk")
+	public String loginOk() {
+		return "loginOk";
+	}
+
+	@GetMapping("/findPassword")
+	public String findPassword() {
+		return "findPassword";
+	}
+
+	@GetMapping("/findPasswordOk")
+	public String findPasswordOk() {
+		return "findPasswordOk";
+	}
 }
