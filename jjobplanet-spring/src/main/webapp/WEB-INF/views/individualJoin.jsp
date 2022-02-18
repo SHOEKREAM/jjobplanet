@@ -47,7 +47,7 @@
                                         <div>    
                                             <input type="checkbox">약관에 동의합니다.
                                         </div>
-                                        <div><input type="submit"  value="가입완료" id="join_button" onclick="location='/joinOk'"></div>
+                                        <div><input type="submit"  value="가입완료" id="join_button" onclick="location='./joinOk'"></div>
                                     </div>                     
                                 </div>           
                             </div>                             

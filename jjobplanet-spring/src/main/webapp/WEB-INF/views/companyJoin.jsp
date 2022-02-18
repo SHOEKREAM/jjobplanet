@@ -78,7 +78,7 @@
                             <div class="join_div" style="text-align: center;">
                                 <div ><textarea style="width: 600px; text-align: center; height: 200px; "></textarea><br></div>
                                 <div style="padding-right: 440px;"><input type="checkbox" >약관에 동의합니다.</div>
-                                <div style="padding-right: 500px;"><a href="joinOk"><input type="button" value="가입완료" id="join_button"></a></div>
+                                <div style="padding-right: 500px;"><a href="./joinOk"><input type="button" value="가입완료" id="join_button"></a></div>
                             </div>   
                         </form>
                         
