@@ -13,7 +13,7 @@
 }
 
 main { margin: 50px 0 }
-button {
+button, input[type="button"], input[type="submit"] {
     width: 155px;
     height: 40px;
     background-color: transparent;
@@ -24,8 +24,14 @@ button:hover{ cursor: pointer; }
 dt, dd { display: inline-block; }
 dt { font-weight: bold; }
 li { list-style: none; }
-input { width : 170px; height :30px; }
-textarea { resize: none; }
+
+input[type="text"] { width : 170px; height :30px; }
+textarea { 
+	resize: none;
+	padding: 16px;
+}
+
+
 
 .gage { 
     width: 186px;
@@ -33,13 +39,14 @@ textarea { resize: none; }
     border: solid 1px #707070;
 }
       
-.company-info-head, .recruit-info-head {
-    width: 85px;
-    margin-bottom: 12px;
+.company-info-head, .recruit-info-head, .join-company-info-head {
+    width: 90px;
+    margin-bottom: 16px;
     font-weight: bold;
 }
 
 .company-review-rating-head { width: 190px; }
+
 
 #wrap {
     width: 1200px;
@@ -394,28 +401,4 @@ textarea { resize: none; }
     height: 50px;
     line-height: 50px;
 }
-
-.join_div div
-{
-	margin-top: 20px; 
-	margin-bottom: 20px;
-}
-	
-#join_button
-{
-	width: 90px;
-	height: 40px;
-	font-size: 11pt;
-}
-
-#joinlogin
-{
-	margin-top: 10%;
-}
-
-.login_input
-{
-	padding-left: 60px;
-}
-
 
