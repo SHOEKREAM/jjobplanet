@@ -3,9 +3,6 @@ package com.jjobplanet.jjobplanet.controller;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -35,12 +32,6 @@ public class HomeController {
 	@RequestMapping(value = "/search.do", method = RequestMethod.GET)
 	public String search(HttpServletRequest request) {
 		
-		// TODO: 검색 이력
-		String q = request.getParameter("q");
-		Cookie cookie = new Cookie("search_history", q);
-		
-		cookie.setMaxAge(0);
-		cookie.setPath("/");
 
 		return "search";
 	}
@@ -119,5 +110,51 @@ public class HomeController {
 	@GetMapping("/faq")
 	public String faq() {
 		return "faq";
+	}
+
+	@RequestMapping(value="/noticeWrite.do")
+	public String noticeWrite()
+	{
+		return "noticeWrite";
+	}
+
+	@GetMapping("/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping("/joinOk")
+	public String joinOk() {
+		return "joinOk";
+	}
+
+	@GetMapping("/individualJoin")
+	public String individualJoin() {
+		return "individualJoin";
+	}
+
+	@GetMapping("/companyJoin")
+	public String companyJoin() {
+		return "companyJoin";
+	}
+
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+
+	@GetMapping("/loginOk")
+	public String loginOk() {
+		return "loginOk";
+	}
+
+	@GetMapping("/findPassword")
+	public String findPassword() {
+		return "findPassword";
+	}
+
+	@GetMapping("/findPasswordOk")
+	public String findPasswordOk() {
+		return "findPasswordOk";
 	}
 }

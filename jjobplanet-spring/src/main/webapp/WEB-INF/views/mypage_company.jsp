@@ -32,42 +32,63 @@
                	<main>
                		 <div id="warp-main">    
 	                    <!-- 내용 -->
-                        <div id = "main_company">
-                            <div id = "container_company">
+                            <div style="display: flex;">
                                 <div style="width: 243px; height: 326px; text-align: center;">
-                                    <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                                    <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px">face</span></a>
                                     <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
                                     <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
                                     <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>
                                     <div style="margin-top: 20px;"><a href="./writereview">리뷰 작성</a></div>
                                 </div>
                                 <!-- 내용 -->
-                                <div id = "contents_company">
+                                <div>
                                     <h2>기업 정보</h2>
-                                    <div class = "contents_item_mid_company1">산업</div>
-                                    <div class = "contents_item_mid_company2">포털,컨텐츠,커뮤니티 </div>
-                                    <div class = "contents_item_mid_company1">사원수</div>	
-                                    <div class = "contents_item_mid_company3">80명</div>
-                                    <div class = "contents_item_mid_company4">기업 구분</div>	
-                                    <div class = "contents_item_mid_company2">중소기업</div>
-                                    <div class = "contents_item_mid_company1">설립일</div>	
-                                    <div class = "contents_item_mid_company3">2022-02-10</div>	
-                                    <div class = "contents_item_mid_company4">대표자</div>
-                                    <div class = "contents_item_mid_company2">아무개</div>
-                                    <div class = "contents_item_mid_company1">주요 산업</div>	
-                                    <div class = "contents_item_mid_company3">...</div>
-                                    <div class = "contents_item_mid_company4">4대보험</div>
-                                    <div class = "contents_item_mid_company2">국민연금 , 건강보험, 고용보험, 산재보험</div>
-                                    <div class = "contents_item_mid_company1">홈페이지</div>	
-                                    <div class = "contents_item_mid_company3">http://www.naver.com</div>
-                                    <div class = "contents_item_mid_company4" >주소</div>
-                                    <div class = "contents_item_mid_company2">서울 강남구 삼성로 86길 35-6(대치동) 목천빌딩</div>	
+                                    <div style="width: 796px; margin-top: 40px;">
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">산업</dt>
+                                            <dd>포털,컨텐츠,커뮤니티 </dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">사원수</dt>	
+                                            <dd>80명</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">기업 구분</dt>	
+                                            <dd>중소기업</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">설립일</dt>	
+                                            <dd>2022-02-10</dd>	
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">대표자</dt>
+                                            <dd>아무개</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">주요 산업</dt>	
+                                            <dd>...</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">4대보험</dt>
+                                            <dd>국민연금 , 건강보험, 고용보험, 산재보험</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head">홈페이지</dt>	
+                                            <dd>http://www.naver.com</dd>
+                                        </dl>
+                                        <dl style="display: flex; margin-bottom: 16px;">
+                                            <dt class="company-info-head" >주소</dt>
+                                            <dd>서울 강남구 삼성로 86길 35-6(대치동) 목천빌딩</dd>	
+                                        </dl>
+                                        <button onClick="window.location.reload()">회원 탈퇴</button>
+                                    </div>
                                 </div><!-- 내용 -->	
-                                <div id ="content_foot2_company"><button onClick="window.location.reload()" style="width:200px;height:30px;">회원 탈퇴</button></div>
+                               
                             </div>
-                        </div>
-
-	                </div>
+                            
+                
+                      
+                    </div>
                	</main>
 
                 <!-- FOOTER -->
