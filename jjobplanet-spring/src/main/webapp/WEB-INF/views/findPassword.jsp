@@ -24,9 +24,7 @@
     <body>
 		<div id="container">
             <div id="wrap">
-                <!-- HEADER -->
-                
-                
+
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
@@ -38,21 +36,17 @@
                                     <div style="width: 300px; flex-direction: column;">
                                         <div><h3>비밀번호 찾기</h3></div>
                                         <div>
-                                            <a href="individualJoin"><input type="button" value="개인" name="kind" id="join_button"></a>
-                                            <a href="companyJoin"><input type="button" value="기업" name="kind" id="join_button"></a>
+                                            <a href="./individualJoin"><input type="button" value="개인" name="kind" id="join_button"></a>
+                                            <a href="./companyJoin"><input type="button" value="기업" name="kind" id="join_button"></a>
                                         </div>
-                                        <div><input type="text" size="30" name="email" placeholder="이메일"></div>
-                                        <div><a href="findPasswordOk"><input type="button" value="비밀번호찾기"></a></div>
+                                        <div><input type="email" size="30" name="email" placeholder="이메일"></div>
+                                        <div><a href="./findPasswordOk"><input type="button" value="비밀번호찾기"></a></div>
                                     </div>            
                                 </div>
                             </div>
                         </form>                        
-                        
 	                </div>
-               	</main>
-
-                <!-- FOOTER -->
-                
+               	</main>               
             </div>
         </div>
     </body>
