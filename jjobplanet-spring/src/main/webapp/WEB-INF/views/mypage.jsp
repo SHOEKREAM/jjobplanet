@@ -35,7 +35,7 @@
                     <!-- 내용 -->
                     <div style="display: flex;">
                         <div style="width: 243px; height: 326px; text-align: center;">
-                            <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined">face</span></a>
+                            <a href="./mypage" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px">face</span></a>
                             <div style="margin-top: 20px;"><a href="./passwordchange">비밀번호 변경</a></div>
                             <div style="margin-top: 20px;"><a href="./interestedcompany">관심 기업</a></div>
                             <div style="margin-top: 20px;"><a href="./reviewhistory">리뷰 작성 내역</a></div>

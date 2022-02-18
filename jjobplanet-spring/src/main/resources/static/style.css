@@ -394,3 +394,28 @@ textarea { resize: none; }
     height: 50px;
     line-height: 50px;
 }
+
+.join_div div
+{
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+	
+#join_button
+{
+	width: 90px;
+	height: 40px;
+	font-size: 11pt;
+}
+
+#joinlogin
+{
+	margin-top: 10%;
+}
+
+.login_input
+{
+	padding-left: 60px;
+}
+
+
