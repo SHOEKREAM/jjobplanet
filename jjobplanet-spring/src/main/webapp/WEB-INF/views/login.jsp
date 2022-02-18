@@ -31,7 +31,7 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <form>
+                        <form name="login" method="post" action="">
                             <div id="joinlogin" style="width: 100%;"> 
                                 <div style="text-align: center;">
                                     <img style=" border:1px solid; width: 300px; height: 250px;" >
@@ -39,8 +39,8 @@
                                 <div style="text-align: center; padding-right: 200px;"><h1>로그인</h1></div>         
                                 <div class="join_div"  style="display: flex; justify-content: center">                                   
                                     <div  style=" flex-direction: column;">
-                                        <div><input type="radio" value="개인" name="category">개인
-                                            <input type="radio" value="기업" name="category">기업</div>
+                                        <div><input type="radio" value="개인" name="kind" name="category">개인
+                                            <input type="radio" value="기업" name="kind" name="category">기업</div>
                                         <div class="login_input"><input type="text" size="20" name="" placeholder="이메일"></div>
                                         <div class="login_input"><input type="text" size="20" name="" placeholder="비밀번호"></div>
                                         <div class="login_input"><a href="join"><input type="button" value="회원가입" id="join_button"></a>

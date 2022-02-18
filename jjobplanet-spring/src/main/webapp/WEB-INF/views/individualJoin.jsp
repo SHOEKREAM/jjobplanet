@@ -36,7 +36,7 @@
                                 <div style="display: flex; justify-content: center">                                                            
                                     <div class="join_div" style=" flex-direction: column; ">
                                         <div><h1>회원가입(개인)</h1></div>                      
-                                        <div><input type="text" size="20" name="uemail" placeholder="이메일">
+                                        <div><input type="text" size="20" name="umail" placeholder="이메일">
                                         <input type="button" value="중복확인" id="join_button"></div>
                                         <div><input type="password" size="20" name="upw" placeholder="비밀번호"></div>
                                         <div><input type="password" size="20" name="upwcheck" placeholder="비밀번호 확인"></div>

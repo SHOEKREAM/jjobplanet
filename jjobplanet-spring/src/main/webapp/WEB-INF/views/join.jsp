@@ -38,8 +38,8 @@
                                     <div class="join_div" style="width: 300px; flex-direction: column; ">
                                         <div><h1>회원가입</h1></div>                      
                                         <div>
-                                            <a href="individualJoin"><input type="button" value="개인" id="join_button"></a>
-                                            <a href="companyJoin"><input type="button" value="기업" id="join_button"></a>
+                                            <a href="individualJoin"><input type="button" value="개인" name="kind" id="join_button"></a>
+                                            <a href="companyJoin"><input type="button" value="기업" name="kind" id="join_button"></a>
                                         </div>
                                         <div><a href="/"><input type="button" value="뒤로가기" id="join_button"></a></div>   
                                     </div>                      
