@@ -112,6 +112,12 @@ public class HomeController {
 		return "faq";
 	}
 
+	@RequestMapping(value="/noticeWrite.do")
+	public String noticeWrite()
+	{
+		return "noticeWrite";
+	}
+
 	@GetMapping("/join")
 	public String join() {
 		return "join";
