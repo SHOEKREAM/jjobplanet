@@ -15,10 +15,12 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.css" />
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
         <script src="./jquery-3.6.0.min.js"></script>
+        <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
         
     </head>
     <body>
@@ -33,17 +35,21 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <form name="notice" action="/noticeWriteAction.do" method="post">
-                            <div>
-                                제목
-                                <input type="text" name="noticetitle">
-                            </div>
-                            <div>
-                                내용
-                                <textarea name="noticenote"></textarea>
-                            </div>
-                            <input type="submit" value="작성">
-                        </form>                      
+                        <h1>공지사항 작성</h1>
+                        <div id="editor" style="margin-top: 40px;"></div>
+                        <script>
+                            const editor = new toastui.Editor(
+                            {
+                                el: document.querySelector('#editor'),
+                                initialEditType: 'wysiwyg',
+                                width: '100%',
+                                height: '500px',
+                                initialValue: '',
+                                /* toolbarItems: [] */
+                            });
+                        </script>
+                        
+                        
 	                </div>
                	</main>
 

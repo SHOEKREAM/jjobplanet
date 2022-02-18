@@ -157,4 +157,10 @@ public class HomeController {
 	public String findPasswordOk() {
 		return "findPasswordOk";
 	}
+
+	@GetMapping("/noticeeditor")
+	public String noticeeditor()
+	{
+		return "noticeeditor";
+	}
 }
