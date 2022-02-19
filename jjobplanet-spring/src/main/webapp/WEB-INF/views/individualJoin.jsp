@@ -18,15 +18,12 @@
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
-        <script src="./jquery-3.6.0.min.js"></script>
         
     </head>
     <body>
 		<div id="container">
             <div id="wrap">
-                <!-- HEADER -->
-                
-                
+
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
@@ -43,8 +40,8 @@
                                             <button>중복확인</button>
                                         </div>
                                         <div style="margin-top: 16px;">
-                                            <input type="password" size="20" name="upw" placeholder="비밀번호" style="display: block;">
-                                            <input type="password" size="20" name="upwcheck" placeholder="비밀번호 확인"  style="display: block;">
+                                            <input type="password" size="20" name="upw" placeholder="비밀번호">
+                                            <input type="password" size="20" name="upwcheck" placeholder="비밀번호 확인">
                                         </div>
 
                                         <div  style="margin-top: 16px;">
@@ -52,7 +49,7 @@
                                         </div>
                                         
                                         <div style="margin-top: 16px;">    
-                                            <input type="checkbox">약관에 동의합니다.
+                                            <input type="checkbox" style="margin-right: 8px;">약관에 동의합니다.
                                         </div>
 
                                         <div style="margin-top: 16px;">    
@@ -62,14 +59,9 @@
                                     </div>
                                 </div>                                            
                             </form>
-                        </div>
-                        
-                        
+                        </div> 
 	                </div>
                	</main>
-
-                <!-- FOOTER -->
-                
             </div>
         </div>
     </body>

@@ -130,8 +130,8 @@
                                     </div>              
                                 <div>
                                     <div style="margin-top: 16px;"  ><textarea style="width: 600px;height: 200px; "></textarea><br></div>
-                                    <div style="margin-top: 16px;" > <input type="checkbox" readonly>약관에 동의합니다.</div>
-                                    <div style="margin-top: 16px;"><a href="./joinOk"><input type="button" value="가입완료" id="join_button"></a></div>
+                                    <div style="margin-top: 16px;" > <input type="checkbox" style="margin-right: 8px;" readonly>약관에 동의합니다.</div>
+                                    <div style="margin-top: 16px;"><button onclick="location.href='./joinOk'" id="join_button">가입완료</button></div>
                                 </div>   
                             </form>
                         </div>
