@@ -3,13 +3,13 @@
 
 <div id="warp-header">
 	<div id="warp-header-container">
-	    <div style="margin-right: 30px"><a href="/">JJobPlanet</a></div>   
-	    <div style="width: 100%; display: flex;">
+	    <div style="display: flex; margin-right: 30px; vertical-align: middle; align-items: center;"><a href="/">JJobPlanet</a></div>   
+	    <div style="width: 100%; display: flex; align-items: center;">
 	        <div style="margin-right: 16px;"><a href="#">기업정보</a></div>   
 	        <div style="margin-right: 16px;"><a href="#">채용공고</a></div> 
 	    </div>    
 	    
-	    <div style="width: 100%; display: flex; justify-content: end;">
+	    <div style="width: 100%; display: flex; justify-content: end; align-items: center;">
 	        <div><a href="./login">로그인</a></div>   
 	        <div style="margin-left: 16px;"><a href="./join">회원가입</a></div>    
 	    </div> 
