@@ -25,7 +25,7 @@ dt, dd { display: inline-block; }
 dt { font-weight: bold; }
 li { list-style: none; }
 
-input[type="text"], input[type="email"], input[type="password"] { width : 170px; height :30px; }
+input[type="text"], input[type="email"], input[type="password"] { width : 170px; height :40px; }
 textarea { 
 	resize: none;
 	padding: 16px;
