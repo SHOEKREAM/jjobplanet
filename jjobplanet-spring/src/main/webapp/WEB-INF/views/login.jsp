@@ -18,41 +18,29 @@
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
-        <script src="./jquery-3.6.0.min.js"></script>
         
     </head>
     <body>
-		<div id="container">
-            <div id="wrap">
+		<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+            <div>    
+                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
+                <h1 style="text-align: center;">로그인</h1>        
+                <div class="join_div" style="text-align: center;">                                   
+                    <div style="margin-top: 16px;">
+                        <input type="radio" value="개인" name="kind" name="category" style="margin-right: 4px">개인
+                        <input type="radio" value="기업" name="kind" name="category" style="margin-right: 4px; margin-left: 8px;">기업
+                    </div>
 
-                <!--  MAIN -->
-               	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <div style="display: flex; justify-content: center;">
-                            <div>    
-                                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
-                                <h1 style="text-align: center;">로그인</h1>        
-                                <div class="join_div" style="text-align: center;">                                   
-                                    <div style="margin-top: 16px;">
-                                        <input type="radio" value="개인" name="kind" name="category" style="margin-right: 4px">개인
-                                        <input type="radio" value="기업" name="kind" name="category" style="margin-right: 4px; margin-left: 8px;">기업
-                                    </div>
-
-                                    <div style="margin-top: 16px;"><input type="text" size="20" name="" placeholder="이메일"></div>
-                                    <div style="margin-top: 16px"> <input type="text" size="20" name="" placeholder="비밀번호">
-                                    </div>
-                                    <div class="login_input" style="margin-top: 16px;">
-                                        <button onclick="location.href='./login.do'" id="join_button">로그인</button>
-                                        <button onclick="location.href='./join'" id="join_button">회원가입</button>
-                                        <button onclick="location.href='./findPassword'" id="join_button">비밀번호 찾기</button>
-                                    </div>      
-                                </div>
-                            </div>                      
-                        </div>  
-	                </div>
-               	</main>               
-            </div>
-        </div>
+                    <div style="margin-top: 16px;"><input type="text" size="20" name="" placeholder="이메일"></div>
+                    <div style="margin-top: 16px"> <input type="text" size="20" name="" placeholder="비밀번호">
+                    </div>
+                    <div class="login_input" style="margin-top: 16px;">
+                        <button onclick="location.href='./login.do'" id="join_button">로그인</button>
+                        <button onclick="location.href='./join'" id="join_button">회원가입</button>
+                        <button onclick="location.href='./findPassword'" id="join_button">비밀번호 찾기</button>
+                    </div>      
+                </div>
+            </div>                      
+        </div>      
     </body>
 </html>

@@ -21,48 +21,38 @@
         
     </head>
     <body>
-		<div id="container">
-            <div id="wrap">
 
-                <!--  MAIN -->
-               	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+            <form name="individualJoin" method="post" action="">
+                <div>
+                    <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
+                    <div>
+                        <h1>회원가입(개인)</h1>     
+                        <div style="margin-top: 40px; display: block;">
+                            <input type="email"placeholder="이메일">
+                            <button>중복확인</button>
+                        </div>
+                        <div style="margin-top: 16px;">
+                            <input type="password" size="20" name="upw" placeholder="비밀번호">
+                            <input type="password" size="20" name="upwcheck" placeholder="비밀번호 확인">
+                        </div>
+
+                        <div  style="margin-top: 16px;">
+                            <textarea style="width: 500px; height: 200px;" readonly></textarea>
+                        </div>
                         
-                        <div style="display: flex; justify-content: center;">
-                            <form name="individualJoin" method="post" action="">
-                                <div>
-                                    <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
-                                    <div>
-                                        <h1>회원가입(개인)</h1>     
-                                        <div style="margin-top: 40px; display: block;">
-                                            <input type="email"placeholder="이메일">
-                                            <button>중복확인</button>
-                                        </div>
-                                        <div style="margin-top: 16px;">
-                                            <input type="password" size="20" name="upw" placeholder="비밀번호">
-                                            <input type="password" size="20" name="upwcheck" placeholder="비밀번호 확인">
-                                        </div>
+                        <div style="margin-top: 16px;">    
+                            <input type="checkbox" style="margin-right: 8px;">약관에 동의합니다.
+                        </div>
 
-                                        <div  style="margin-top: 16px;">
-                                            <textarea style="width: 500px; height: 200px;" readonly></textarea>
-                                        </div>
-                                        
-                                        <div style="margin-top: 16px;">    
-                                            <input type="checkbox" style="margin-right: 8px;">약관에 동의합니다.
-                                        </div>
-
-                                        <div style="margin-top: 16px;">    
-                                            <input type="submit"  value="가입완료" onclick="location='./joinOk'">
-                                        </div>
-                                        
-                                    </div>
-                                </div>                                            
-                            </form>
-                        </div> 
-	                </div>
-               	</main>
-            </div>
-        </div>
+                        <div style="margin-top: 16px;">    
+                            <input type="submit"  value="가입완료" onclick="location='./joinOk'">
+                        </div>
+                        
+                    </div>
+                </div>                                            
+            </form>
+        </div> 
+    
     </body>
 </html>

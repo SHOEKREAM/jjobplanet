@@ -22,32 +22,21 @@
         
     </head>
     <body>
-		<div id="container">
-            <div id="wrap">
-
-                <!--  MAIN -->
-               	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <div style="display: flex; justify-content: center">
-                            <form neme="findPassword" method="post" action="">
-                                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
-                                <div class="join_div" style="display: flex; justify-content: center">                                   
-                                    <div style="text-align: center; margin-top: 40px;">
-                                        <div><h3>비밀번호 찾기</h3></div>
-                                        <div style="margin-top: 16px;">
-                                            <input type="radio" style="margin-right: 8px;">개인
-                                            <input type="radio" style="margin-left: 16px; margin-left: 8px;">기업
-                                        </div>
-                                        <div style="margin-top: 16px;"><input type="email" size="30" name="email" placeholder="이메일"></div>
-                                        <div style="margin-top: 16px;"><button onclick="location.href='./findPasswordOk'">비밀번호찾기</button></div>
-                                    </div>            
-                                </div>
-                            </form>          
-                        </div>              
-	                </div>
-               	</main>               
-            </div>
-        </div>
+		<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+            <form neme="findPassword" method="post" action="">
+                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
+                <div class="join_div" style="display: flex; justify-content: center">                                   
+                    <div style="text-align: center; margin-top: 40px;">
+                        <div><h3>비밀번호 찾기</h3></div>
+                        <div style="margin-top: 16px;">
+                            <input type="radio" style="margin-right: 8px;">개인
+                            <input type="radio" style="margin-left: 16px; margin-left: 8px;">기업
+                        </div>
+                        <div style="margin-top: 16px;"><input type="email" size="30" name="email" placeholder="이메일"></div>
+                        <div style="margin-top: 16px;"><button onclick="location.href='./findPasswordOk'">비밀번호찾기</button></div>
+                    </div>            
+                </div>
+            </form>          
+        </div> 
     </body>
 </html>

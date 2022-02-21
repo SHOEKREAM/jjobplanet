@@ -22,31 +22,20 @@
         
     </head>
     <body>
-		<div id="container">
-            <div id="wrap">
-
-                <!--  MAIN -->
-               	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <div style="display: flex; justify-content: center;">
-                            <div>
-                                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
-                                <div style="text-align: center;">                                                            
-                                    <h1>회원가입</h1>       
-                                    <div style="margin-top: 40px;">
-                                        <button onclick="location.href='./individualJoin'">개인</button>
-                                        <button onclick="location.href='./companyJoin'">기업</button>
-                                    </div>
-                                    <div style="margin: 16px;">
-                                        <button onclick="location.href='/'" >취소</button>
-                                    </div>
-                                </div>          
-                            </div>        
-                        </div>
-	                </div>
-               	</main>               
-            </div>
+		<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+            <div>
+                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
+                <div style="text-align: center;">                                                            
+                    <h1>회원가입</h1>       
+                    <div style="margin-top: 40px;">
+                        <button onclick="location.href='./individualJoin'">개인</button>
+                        <button onclick="location.href='./companyJoin'">기업</button>
+                    </div>
+                    <div style="margin: 16px;">
+                        <button onclick="location.href='/'" >취소</button>
+                    </div>
+                </div>          
+            </div>        
         </div>
     </body>
 </html>
