@@ -43,8 +43,8 @@
                	<main>
                		 <div>
 	                    <!-- 내용 -->
-                        <div class="policy_upper_wrap">
-                            <span><a href="/policy">이용약관</a></span>
+                        <div class="policy_upper_wrap" style="display: flex; justify-content: space-between;">
+                            <span><a href="./policy">이용약관</a></span>
                             <span><a href="/privacy">개인정보처리방침</a></span>
                             <span><a href="/recruitService">채용서비스 약관</a></span>
                             <span><a href="/notice">공지사항</a></span>

@@ -15,40 +15,48 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.css" />
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
         <script src="./jquery-3.6.0.min.js"></script>
+        <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
         
     </head>
     <body>
 		<div id="container">
             <div id="wrap">
                 <!-- HEADER -->
-               
+                <header>
+					<jsp:include page="./header.jsp"/>
+                </header>
                 
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div style="display:  flex; justify-content: center;">
-                            <div style="text-align: center;">
-                                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
-                                <div style="margin-top: 40px;" >          
-                                    <div>
-                                        입력하신 이메일로 메일을 보냈습니다.<br>
-                                        메일 인증을 완료해 주세요.   
-                                    </div>
-                                    <button style="margin-top: 16px;" onclick="location.href='./login'">로그인</button>
-                                </div>      
-                            </div>
-                        </div>
+                        <h1>공지사항 작성</h1>
+                        <div id="editor" style="margin-top: 40px;"></div>
+                        <script>
+                            const editor = new toastui.Editor(
+                            {
+                                el: document.querySelector('#editor'),
+                                initialEditType: 'wysiwyg',
+                                width: '100%',
+                                height: '500px',
+                                initialValue: '',
+                                /* toolbarItems: [] */
+                            });
+                        </script>
+                        
                         
 	                </div>
                	</main>
 
                 <!-- FOOTER -->
-                
+                <footer>	 
+					<jsp:include page="./footer.jsp"/>
+                </footer>
             </div>
         </div>
     </body>
