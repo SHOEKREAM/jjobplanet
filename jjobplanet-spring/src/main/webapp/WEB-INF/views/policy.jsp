@@ -34,12 +34,19 @@
                		 <div id="warp-main">
 	                    <!-- 내용 -->
                         <div class="policy_upper_wrap" style="display: flex; justify-content: space-between;">
-                            <span><a href="/policy">이용약관</a></span>
-                            <span><a href="/privacy">개인정보처리방침</a></span>
-                            <span><a href="/recruitService">채용서비스 약관</a></span>
-                            <span><a href="/notice">공지사항</a></span>
-                            <span><a href="/faq">FAQ</a></span>
+                            <span><a href="./policy">이용약관</a></span>
+                            <span><a href="./privacy">개인정보처리방침</a></span>
+                            <span><a href="./recruitService">채용서비스 약관</a></span>
+                            <span><a href="./notice">공지사항</a></span>
+                            <span><a href="./faq">FAQ</a></span>
                         </div>
+                        <!-- <div style="display: flex; justify-content: space-between;">
+                            <button onclick="location.href='./policy'">이용약관</button>
+                            <button onclick="location.href='./privacy'">개인정보처리방침</button>
+                            <button onclick="location.href='./recruitService'">채용서비스 약관</button>
+                            <button onclick="location.href='./notice'">공지사항</button>
+                            <button onclick="location.href='./faq'">FAQ</button>
+                        </div> -->
 	                </div>
                     <div class="policy_body_wrap">
                         <div class="policy_contents_wrap">
