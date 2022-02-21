@@ -33,7 +33,7 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div class="policy_upper_wrap">
+                        <div class="policy_upper_wrap" style="display: flex; justify-content: space-between;">
                             <span><a href="/policy">이용약관</a></span>
                             <span><a href="/privacy">개인정보처리방침</a></span>
                             <span><a href="/recruitService">채용서비스 약관</a></span>

@@ -43,7 +43,7 @@
                	<main>
                		 <div>
 	                    <!-- 내용 -->
-                        <div class="policy_upper_wrap">
+                        <div class="policy_upper_wrap" style="display: flex; justify-content: space-between;">
                             <span><a href="/policy">이용약관</a></span>
                             <span><a href="/privacy">개인정보처리방침</a></span>
                             <span><a href="/recruitService">채용서비스 약관</a></span>
@@ -81,6 +81,7 @@
                                 <div id="notice_notice2" class="notice_note_row">
                                     <span class="notice_note">공지내용입니다2</span>
                                 </div>
+                                <a href="<%= request.getContextPath() %>/noticeWrite.do"><input type="button" value="작성" style="float:right;"></a>
                             </div>
                         </div>
 	                </div>

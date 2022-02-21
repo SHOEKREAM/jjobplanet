@@ -17,7 +17,7 @@ function notifyInput() {
     if(isFocusedInput == false) document.getElementById("search-history").style.display = 'none';
     else document.getElementById("search-history").style.display = 'block';
 }
-document.addEventListener('mouseup', focusInput)
+document.addEventListener('mouseup', focusInput);
 
 function clearSearchInput(){
 	let input = document.getElementById("search-input");

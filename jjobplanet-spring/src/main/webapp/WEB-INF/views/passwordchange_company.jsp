@@ -19,7 +19,6 @@
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
         <script src="./jquery-3.6.0.min.js"></script>
-        
     </head>
     <body>
 		<div id="container">
@@ -33,29 +32,36 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div id = "main_company">
-                            <div id = "container">
-                                <div id = "side_menu_company">
-                                    <div id = side_menu_profile_image><span class="material-icons-outlined"><a href="./mypage_company">face</a></span></div>
-                                    <div> <a href="./passwordchange_company">비밀번호 변경</a></div>
-                                    <div><a href="./jobpostinglist">채용공고 작성내역</a></div>
-                                    <div> <a href="./recruitment">채용공고 작성</a></div>
-                                </div>
-                                <!-- 내용 -->
-                                <div class = "password_contents">
-                                    <div class = "password_contents_item_head">비밀번호 변경</div>
-                                    <div class = "password">현재 비밀번호</div>
-                                    <div><input type="text"></div>
-                                    <div class = "new_password">새 비밀번호</div>
-                                    <div><input type="text"></div>
-                                    <div class = "passwordok">새 비밀번호 확인</div>
-                                    <div><input type="text"></div>	
-                                    <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>
-                                </div><!-- 내용 -->	
+                        <div style="display: flex;">
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage_company" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange_company">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./jobpostinglist">채용공고 작성내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./recruitment">채용공고 작성</a></div>
                             </div>
-                       </div>
+                            <!-- 내용 -->
+                            <div>
+                                <h2>비밀번호 변경</h2>
+                                <div style="margin-top: 30px;">
+                                    <div>현재 비밀번호</div>
+                                    <input type="text" style="margin-top: 16px">
+                                </div>
+                                <div style="display: flex; margin-top: 16px;">
+                                    <div style="margin-right: 16px;">
+                                        <div>새 비밀번호</div>
+                                        <input type="password" id ="password2" style="margin-top: 16px">
+                                    </div>
+                                    <div>
+                                        <div>새 비밀번호 확인</div>
+                                        <input type="password" id ="password3" style="margin-top: 16px">
+                                    </div>
+                                </div>
+                                <div class ="password_content_foot1"><input type="button" value = "정보변경" onClick="passwordmatch()" style="width:170px;height:30px;"></div>   
+                            </div><!-- 내용 -->	
+                        </div>          
 	                </div>
-                </main>
+               	</main>
+
                 <!-- FOOTER -->
                 <footer>	 
 					<jsp:include page="./footer.jsp"/>
