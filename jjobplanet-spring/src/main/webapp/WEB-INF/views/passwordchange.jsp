@@ -19,7 +19,26 @@
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
         <script src="./jquery-3.6.0.min.js"></script>
-        
+        <script>
+            function passwordmatch()
+            {
+                var p2 = document.getElementById('password2').value;
+                var p3 = document.getElementById('password3').value;
+                if(p2.value != null)
+                {
+                    alert("새 비밀번호를 입력해 주십시오")
+                    return false;
+                }else if(p2 != p3)
+                {
+                    alert("비밀번호가 일치하지 않습니다.")
+                    return false;
+                }else
+                {
+                    alert("비밀번호가 일치합니다.")
+                    return true;
+                }
+            }
+        </script>
     </head>
     <body>
 		<div id="container">
@@ -44,7 +63,7 @@
                             <!-- 내용 -->
                             <div>
                                 <h2>비밀번호 변경</h2>
-                               
+                               <from name="passwordchange">
                                 <div style="margin-top: 30px;">
                                     <div>현재 비밀번호</div>
                                     <input type="text" style="margin-top: 16px">
@@ -52,18 +71,17 @@
                                 <div style="display: flex; margin-top: 16px;">
                                     <div style="margin-right: 16px;">
                                         <div>새 비밀번호</div>
-                                        <input type="text" style="margin-top: 16px">
+                                        <input type="password" id ="password2" style="margin-top: 16px">
                                     </div>
                                     <div>
                                         <div>새 비밀번호 확인</div>
-                                        <input type="text" style="margin-top: 16px">
+                                        <input type="password" id ="password3" style="margin-top: 16px">
                                     </div>
                                 </div>
-                                <div class ="password_content_foot1"><button onClick="window.location.reload()" style="width:170px;height:30px;">정보 변경</button></div>    
+                                <div class ="password_content_foot1"><input type="button" value = "정보변경" onClick="passwordmatch()" style="width:170px;height:30px;"></div>    
+                                </from>
                             </div><!-- 내용 -->	
-                            
-                        </div>
-                        
+                        </div>          
 	                </div>
                	</main>
 

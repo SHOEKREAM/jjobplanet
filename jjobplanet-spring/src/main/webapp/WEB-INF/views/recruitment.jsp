@@ -32,18 +32,16 @@
                 <!--  MAIN -->
                	<main>
                		 <div id="warp-main">
-	                    <div id = "main_company">
-                            <div id = "container_company">
-                                <div id = "side_menu_company">
-                                    <div id = side_menu_profile_image_company><span class="material-icons-outlined"><a href="./mypage_company">face</a></span></div>
-                                    <div> <a href="./passwordchange_company">비밀번호 변경</a></div>
-                                    <div><a href="./jobpostinglist">채용공고 작성내역</a></div>
-                                    <div> <a href="./recruitment">채용공고 작성</a></div>
-                                </div>
+                        <div style="display: flex;" >
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage_company" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange_company">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./jobpostinglist">채용공고 작성내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./recruitment">채용공고 작성</a></div>
+                            </div>
                                 <!-- 내용 -->
-                                <div id = "write_contents_company">
-                                    <div id = "write_contents_item_head_company">채용공고 작성 </div>
-                                </div>
+                            <div>
+                                <h2>채용공고 작성 </h2>
                                 <div id = "write_contents_notice_company">
                                     <div class="write_contents_notice_company1">기업명</div>
                                     <div><input type="text" class="write_contents_notice_company2"></div>
@@ -56,12 +54,10 @@
                                     <div class="write_contents_notice_company1">겅력</div>	
                                     <div><input type="text" class="write_contents_notice_company2"></div>
                                     <div class="write_contents_notice_company1">근무지역</div>	
-                                    <div><input type="text" class="write_contents_notice_company2"></div>
-                                    <div class="write_contents_notice_company1"></div>	
+                                    <div><input type="text" class="write_contents_notice_company2"></div>	
                                     <div><textarea style="width : 800px; height : 500px"></textarea></div>
-                                    <div class="write_contents_notice_company1"></div>
-                                    <div><button class="buttons">취소</button></div>
-                                    <div><button class="buttons">등록</button></div>
+                                    <div><button style="float: left;">등록</button></div>
+                                    <div><button style="float: left; margin-left: 30px;">취소</button></div>
                                 </div>
                             </div><!-- 내용 -->
                        </div> 
