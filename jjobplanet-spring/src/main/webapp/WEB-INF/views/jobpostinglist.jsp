@@ -33,57 +33,53 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div id = "main_company">
-                            <div id = "container_company">
-                                <div id = "side_menu_company">
-                                    <div id = side_menu_profile_image_company><span class="material-icons-outlined"><a href="./mypage_company">face</a></span></div>
-                                    <div> <a href="./passwordchange_company">비밀번호 변경</a></div>
-                                    <div><a href="./jobpostinglist">채용공고 작성내역</a></div>
-                                    <div> <a href="./recruitment">채용공고 작성</a></div>
-                                </div>
+                        <div style="display: flex;">
+                            <div style="width: 243px; height: 326px; text-align: center;">
+                                <a href="./mypage_company" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
+                                <div style="margin-top: 20px;"><a href="./passwordchange_company">비밀번호 변경</a></div>
+                                <div style="margin-top: 20px;"><a href="./jobpostinglist">채용공고 작성내역</a></div>
+                                <div style="margin-top: 20px;"><a href="./recruitment">채용공고 작성</a></div>
+                            </div>
                                 <!-- 내용 -->
-                                <div id = "recruitment_contents">
-                                    <div id = "contents_item_head_company">채용 공고 작성내역</div>
-                                    <div id = "recruitment_contents_message">총 4개의 채용공고 작성 내역이 있습니다.</div>
-                                    <div id = "recruitment_contents_title">
-                                        <div style="width : 5px;  float : left">　</div>
-                                        <div style="width : 80px;  float : left">#</div>
-                                        <div style="width : 300px; float : left">제목</div>
-                                        <div style="width : 140px; float : left">채용 상태</div>
-                                        <div style="width : 200px; float : left">작성일</div>
+                                <div style="width: 957px;">
+                                <h2>채용 공고 작성내역</h2><br>
+                                    <div>총 4개의 채용공고 작성 내역이 있습니다.</div>
+                                    <div style="margin-top: 30px; width: 100%;">
+                                        <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
+                                            <div style="width : 5px;  float  : left">　</div>
+                                            <div style="width : 80px;  float : left">#</div>
+                                            <div style="width : 300px; float : left">제목</div>
+                                            <div style="width : 140px; float : left">채용 상태</div>
+                                            <div style="width : 200px; float : left">작성일</div>
+                                        </div>
+                                        <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
+                                            <div style="width : 5px;   float : left">　</div>
+                                            <div style="width : 80px;  float : left">1</div>
+                                            <div style="width : 300px; float : left"><a href="#"> 백엔드 개발자 채용공고</a></div>
+                                            <div style="width : 140px; float : left">채용중</div>
+                                            <div style="width : 200px; float : left">2022-02-10</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
+                                        </div>
+                                        <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
+                                            <div style="width : 5px;   float : left">　</div>
+                                            <div style="width : 80px;  float : left">2</div>
+                                            <div style="width : 300px; float : left"><a href="#"> 프론트엔드 개발자 채용공고</a></div>
+                                            <div style="width : 140px; float : left">채용대기</div>
+                                            <div style="width : 200px; float : left">2022-02-10</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
+                                        </div>
+                                        <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
+                                            <div style="width : 5px;   float : left">　</div>
+                                            <div style="width : 80px;  float : left">3</div>
+                                            <div style="width : 300px; float : left"><a href="#"> 퍼블리셔 채용공고</a></div>
+                                            <div style="width : 140px; float : left">채용중</div>
+                                            <div style="width : 200px; float : left">2022-02-10</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class = "recruitment_contents_notice">
-                                    <div style="width : 80px;  float : left">1</div>
-                                    <div style="width : 310px; float : left"><a href="#">자바 개발자 공고</a></div>
-                                    <div style="width : 110px; float : left">채용중</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "recruitment_contents_notice">
-                                    <div style="width : 80px;  float : left">2</div>
-                                    <div style="width : 310px; float : left"><a href="#">프론트 엔드 개발자 공고</a></div>
-                                    <div style="width : 110px; float : left">채용중</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "recruitment_contents_notice">
-                                    <div style="width : 80px;  float : left">3</div>
-                                    <div style="width : 310px; float : left"><a href="#">백엔드 개발자 공고</a></div>
-                                    <div style="width : 110px; float : left">채용대기</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
-                                </div>
-                                <div class = "recruitment_contents_notice">
-                                    <div style="width : 80px;  float : left">4</div>
-                                    <div style="width : 310px; float : left"><a href="#"> 퍼블리셔 공고</a></div>
-                                    <div style="width : 110px; float : left">채용마감</div>
-                                    <div style="width : 200px; float : left">2022-01-28</div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">수정</button></div>
-                                    <div style="width : 50px; float : left"><button type="button" id="but" onclick="location.href='#'">삭제</button></div>
                                 </div>
                             </div><!-- 내용 -->
                        </div>

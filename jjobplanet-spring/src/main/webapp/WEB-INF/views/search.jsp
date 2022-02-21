@@ -16,6 +16,77 @@
         
         <!-- SCRIPT-->
         <script src="./app.js"></script>
+        <script>
+            let option1 = false;
+            let option2 = false;
+            let option3 = false;
+            let option4 = false;
+            
+            function showOption1()
+            {
+                if(option1 == false )
+                {
+                    option1 = true;
+                    document.getElementById("search-option-recruitcategory").style.display='block';
+                } else {
+                    option1 = false;
+                    document.getElementById("search-option-recruitcategory").style.display='none';
+                }
+                
+                document.getElementById("search-option-industry").style.display='none';
+                document.getElementById("search-option-activecategory").style.display='none';
+                document.getElementById("search-option-region").style.display='none';
+            }
+
+            function showOption2()
+            {
+                if(option2 == false )
+                {
+                    option2 = true;
+                    document.getElementById("search-option-industry").style.display='block';
+                } else {
+                    option2 = false;
+                    document.getElementById("search-option-industry").style.display='none';
+                }
+                document.getElementById("search-option-recruitcategory").style.display='none';
+                document.getElementById("search-option-activecategory").style.display='none';
+                document.getElementById("search-option-region").style.display='none';
+            }
+
+            function showOption3()
+            {
+                if(option3 == false )
+                {
+                    option3 = true;
+                    document.getElementById("search-option-activecategory").style.display='block';
+                } else {
+                    option3 = false;
+                    document.getElementById("search-option-activecategory").style.display='none';
+                }
+                document.getElementById("search-option-recruitcategory").style.display='none';
+                document.getElementById("search-option-industry").style.display='none';
+                document.getElementById("search-option-region").style.display='none';
+            }
+
+            function showOption4()
+            {
+                if(option4 == false )
+                {
+                    option4 = true;
+                    document.getElementById("search-option-region").style.display='block';
+                } else {
+                    option4 = false;
+                    document.getElementById("search-option-region").style.display='none';
+                }
+                document.getElementById("search-option-recruitcategory").style.display='none';
+                document.getElementById("search-option-industry").style.display='none';
+                document.getElementById("search-option-activecategory").style.display='none';
+              
+            }
+
+            
+        </script>
+       
     </head>
     <body>
 		<div id="container">
@@ -29,22 +100,67 @@
                	<main>
                		<div>
                			<div style="display:flex;">
-               				<div class="search-filter" >
-           						<span style="width: 100%; margin-right: 16px">채용분야</span>
-           						<span class="material-icons">expand_more</span>
+               				<div onclick="showOption1()">
+           						<div class="search-filter">
+                                    <span style="width: 100%; margin-right: 16px">채용분야</span>
+                                    <span class="material-icons">expand_more</span>
+                                </div>   
+                                <div id="search-option-recruitcategory" style=" display: none; width: 148px; position: absolute; border: solid black 1px; background-color: white;">
+                                    <ul>
+                                        <li><input type="radio" name="recruitcategory">a</li>
+                                        <li><input type="radio" name="recruitcategory">a</li>
+                                        <li><input type="radio" name="recruitcategory">a</li>
+                                        <li><input type="radio" name="recruitcategory">a</li>
+                                    </ul>
+                                </div>
                				</div>
-               				<div class="search-filter" >
-                              	<span style="width: 100%; margin-right: 16px;" >산업</span>
-                              	<span class="material-icons">expand_more</span>
+                            
+               				<div onclick="showOption2()" >
+                              	<div class="search-filter">
+                                    <span style="width: 100%; margin-right: 16px;" >산업</span>
+                                    <span class="material-icons">expand_more</span>
+                                    
+                                </div>
+                                <div id="search-option-industry" style=" display: none; width: 148px; position: absolute; border: solid black 1px; background-color: white;">
+                                        <ul>
+                                            <li><input type="radio" name="industry">a</li>
+                                            <li><input type="radio" name="industry">a</li>
+                                            <li><input type="radio" name="industry">a</li>
+                                            <li><input type="radio" name="industry">a</li>
+                                        </ul>
+                                    </div>
                             </div>
-                            <div class="search-filter" >
-                              	<span style="width: 100%; margin-right: 16px">활동분야</span>
-                              	<span class="material-icons">expand_more</span>
+                            <div onclick="showOption3()" >
+                              	<div class="search-filter">
+                                    <span style="width: 100%; margin-right: 16px">활동분야</span>
+                                    <span class="material-icons">expand_more</span>
+                                    
+                                </div>
+                                <div id="search-option-activecategory" style=" display: none; width: 148px; position: absolute; border: solid black 1px; background-color: white;">
+                                        <ul>
+                                            <li><input type="radio" name="activecategory">a</li>
+                                            <li><input type="radio" name="activecategory">a</li>
+                                            <li><input type="radio" name="activecategory">a</li>
+                                            <li><input type="radio" name="activecategory">a</li>
+                                        </ul>
+                                    </div>
                             </div>
-                            <div class="search-filter" >
-                              	<span style="width: 100%; margin-right: 16px">지역</span>
-                              	<span class="material-icons">expand_more</span>
+                            <div onclick="showOption4()" >
+                              	<div class="search-filter">
+                                    <span style="width: 100%; margin-right: 16px">지역</span>
+                                    <span class="material-icons">expand_more</span>
+                                    
+                                </div>
+                                <div id="search-option-region" style=" display: none; width: 148px; position: absolute; border: solid black 1px; background-color: white;">
+                                        <ul>
+                                            <li><input type="radio" name="region">a</li>
+                                            <li><input type="radio" name="region">a</li>
+                                            <li><input type="radio" name="region">a</li>
+                                            <li><input type="radio" name="region">a</li>
+                                        </ul>
+                                    </div>
                             </div>
+                            <button>재검색</button>
                			</div>
 
                         <div id="search-result" style="margin-top: 10px;">

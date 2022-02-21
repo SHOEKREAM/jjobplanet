@@ -98,7 +98,8 @@
 		                            let markerPosition  = new kakao.maps.LatLng(33.450701, 126.570667); 
 		                            let marker = new kakao.maps.Marker({ position: markerPosition});
 		                            marker.setMap(map);
-		                            map.setDraggable(false);    
+		                            map.setDraggable(false);
+									map.setZoomable(false);    
 		
 		                        </script>
 		                    </div> 
@@ -181,7 +182,7 @@
 	                <div style="width: 691px; margin-left: 89px;">
 	                    <div>
 	                        <div style="font-weight: bold;">기업의 장점</div>
-	                        <div style="margin-top: 16px;">
+	                        <div style="margin-top: 16px; word-break:break-all">
 	                            모든 국민은 보건에 관하여 국가의 보호를 받는다.
 	                            국회는 정부의 동의없이 정부가 제출한 지출예산 각항의 금액을 증가하거나 새 비목을 설치할 수 없다.
 	                            비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 
@@ -192,11 +193,10 @@
 	
 	                    <div  style="margin-top: 30px;">
 	                        <div style="font-weight: bold;">기업의 단점</div>
-	                        <div style="margin-top: 16px;">
+	                        <div style="margin-top: 16px; word-break:break-all">
 	                            모든 국민은 보건에 관하여 국가의 보호를 받는다.
 	                            국회는 정부의 동의없이 정부가 제출한 지출예산 각항의 금액을 증가하거나 새 비목을 설치할 수 없다.
-	                            비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 
-	                            초병·초소·유독음식물공급·포로에 관한 죄중 법률이 정한 경우에 한하여 단심으로 할 수 있다. 
+	                            비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 초병·초소·유독음식물공급·포로에 관한 죄중 법률이 정한 경우에 한하여 단심으로 할 수 있다. 
 	                            다만, 사형을 선고한 경우에는 그러하지 아니하다.
 	                        </div>
 	                    </div>

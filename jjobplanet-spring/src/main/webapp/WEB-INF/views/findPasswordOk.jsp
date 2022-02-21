@@ -31,20 +31,18 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <form name="findPasswordOk" method="post" action="">
-                            <div id="joinlogin" style="width: 100%;">  
-                                <div style="text-align: center;"><img style=" border:1px solid; width: 300px; height: 250px;" ></div>        
-                                <div class="join_div" style="display:flex; justify-content: center" >          
-                                    <div style="width: 300px; flex-direction: column; ">
-                                        <div>
-                                            입력하신 이메일로 메일을 보냈습니다.<br>
-                                            메일 인증을 완료해 주세요.   
-                                        </div>
-                                        <div><a href="login"><input type="button" value="로그인하기" id="join_button"></a></div>   
-                                    </div>                      
-                                </div>           
+                        <div style="display:  flex; justify-content: center;">
+                            <div style="text-align: center;">
+                                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
+                                <div style="margin-top: 40px;" >          
+                                    <div>
+                                        입력하신 이메일로 메일을 보냈습니다.<br>
+                                        메일 인증을 완료해 주세요.   
+                                    </div>
+                                    <button style="margin-top: 16px;" onclick="location.href='./login'">로그인</button>
+                                </div>      
                             </div>
-                        </form>       
+                        </div>
                         
 	                </div>
                	</main>

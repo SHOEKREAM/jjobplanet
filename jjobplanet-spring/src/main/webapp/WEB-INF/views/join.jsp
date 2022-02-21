@@ -22,38 +22,20 @@
         
     </head>
     <body>
-		<div id="container">
-            <div id="wrap">
-                <!-- HEADER -->
-               
-                
-                <!--  MAIN -->
-               	<main>
-               		 <div id="warp-main">
-	                    <!-- 내용 -->
-                        <form>
-                            <div id="joinlogin" style="width: 100%;">
-                                <div style="text-align: center; padding-bottom: 20px;"><img style=" border:1px solid; width: 300px; height: 250px;"></div> 
-                                <div style="display: flex; width: 100%; justify-content: center">                                                            
-                                    <div class="join_div" style="width: 300px; flex-direction: column; ">
-                                        <div><h1>회원가입</h1></div>                      
-                                        <div>
-                                            <a href="individualJoin"><input type="button" value="개인" name="kind" id="join_button"></a>
-                                            <a href="companyJoin"><input type="button" value="기업" name="kind" id="join_button"></a>
-                                        </div>
-                                        <div><a href="/"><input type="button" value="뒤로가기" id="join_button"></a></div>   
-                                    </div>                      
-                                </div>          
-                            </div>
-                        </form>
-                        
-                        
-	                </div>
-               	</main>
-
-                <!-- FOOTER -->
-               
-            </div>
+		<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+            <div>
+                <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
+                <div style="text-align: center;">                                                            
+                    <h1>회원가입</h1>       
+                    <div style="margin-top: 40px;">
+                        <button onclick="location.href='./individualJoin'">개인</button>
+                        <button onclick="location.href='./companyJoin'">기업</button>
+                    </div>
+                    <div style="margin: 16px;">
+                        <button onclick="location.href='/'" >취소</button>
+                    </div>
+                </div>          
+            </div>        
         </div>
     </body>
 </html>
