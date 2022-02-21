@@ -42,11 +42,11 @@
                             </div>
                                 <!-- 내용 -->
                                 <div style="width: 957px;">
-                                <h2>채용 공고 작성내역</h2>
+                                <h2>채용 공고 작성내역</h2><br>
                                     <div>총 4개의 채용공고 작성 내역이 있습니다.</div>
                                     <div style="margin-top: 30px; width: 100%;">
                                         <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
-                                            <div style="width : 5px;  float : left">　</div>
+                                            <div style="width : 5px;  float  : left">　</div>
                                             <div style="width : 80px;  float : left">#</div>
                                             <div style="width : 300px; float : left">제목</div>
                                             <div style="width : 140px; float : left">채용 상태</div>
@@ -58,8 +58,8 @@
                                             <div style="width : 300px; float : left"><a href="#"> 백엔드 개발자 채용공고</a></div>
                                             <div style="width : 140px; float : left">채용중</div>
                                             <div style="width : 200px; float : left">2022-02-10</div>
-                                            <div style="width : 50px;  float :  left">수정</div>
-                                            <div style="width : 50px;  float :  left">삭제</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
                                         </div>
                                         <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
                                             <div style="width : 5px;   float : left">　</div>
@@ -67,8 +67,8 @@
                                             <div style="width : 300px; float : left"><a href="#"> 프론트엔드 개발자 채용공고</a></div>
                                             <div style="width : 140px; float : left">채용대기</div>
                                             <div style="width : 200px; float : left">2022-02-10</div>
-                                            <div style="width : 50px;  float :  left">수정</div>
-                                            <div style="width : 50px;  float :  left">삭제</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
                                         </div>
                                         <div style="display: flex; width: 100%; margin-bottom: 16px; align-items: center;">
                                             <div style="width : 5px;   float : left">　</div>
@@ -76,8 +76,8 @@
                                             <div style="width : 300px; float : left"><a href="#"> 퍼블리셔 채용공고</a></div>
                                             <div style="width : 140px; float : left">채용중</div>
                                             <div style="width : 200px; float : left">2022-02-10</div>
-                                            <div style="width : 50px;  float :  left">수정</div>
-                                            <div style="width : 50px;  float :  left">삭제</div>
+                                            <div style="width : 50px;  float : left">수정</div>
+                                            <div style="width : 50px;  float : left">삭제</div>
                                         </div>
                                     </div>
                                 </div>

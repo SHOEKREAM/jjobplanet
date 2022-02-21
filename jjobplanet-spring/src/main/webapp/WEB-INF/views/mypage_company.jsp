@@ -18,7 +18,6 @@
         <!-- SCRIPT-->
         <script src="./app.js"></script>       
         <script src="./jquery-3.6.0.min.js"></script>
-        
     </head>
     <body>
 		<div id="container">

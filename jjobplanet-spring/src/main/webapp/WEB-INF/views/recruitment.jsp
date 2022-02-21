@@ -57,7 +57,7 @@
                                     <div><input type="text" class="write_contents_notice_company2"></div>	
                                     <div><textarea style="width : 800px; height : 500px"></textarea></div>
                                     <div><button style="float: left;">등록</button></div>
-                                    <div><button style="float: left; margin-left: 30px;">취소</button></div>
+                                    <div><button style="float: left; margin-left: 20px;">취소</button></div>
                                 </div>
                             </div><!-- 내용 -->
                        </div> 
