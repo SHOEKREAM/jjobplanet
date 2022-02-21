@@ -78,7 +78,8 @@
                                         <input type="password" id ="password3" style="margin-top: 16px">
                                     </div>
                                 </div>
-                                <div class ="password_content_foot1"><input type="button" value = "정보변경" onClick="passwordmatch()" style="width:170px;height:30px;"></div>    
+                    
+                                <button onclick="passwordmatch()" style="margin-top: 16px;">정보변경</button>
                                 </from>
                             </div><!-- 내용 -->	
                         </div>          
