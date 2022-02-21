@@ -30,7 +30,7 @@
                		 <div id="warp-main">
 	                    <!-- 내용 -->
                         <div style="display: flex; justify-content: center;">
-                            <form name="login" method="post" action="#">    
+                            <div>    
                                 <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
                                 <h1 style="text-align: center;">로그인</h1>        
                                 <div class="join_div" style="text-align: center;">                                   
@@ -48,11 +48,8 @@
                                         <button onclick="location.href='./findPassword'" id="join_button">비밀번호 찾기</button>
                                     </div>      
                                 </div>
-                                      
-                            </form>
-                            
-                        </div>
-                        
+                            </div>                      
+                        </div>  
 	                </div>
                	</main>               
             </div>

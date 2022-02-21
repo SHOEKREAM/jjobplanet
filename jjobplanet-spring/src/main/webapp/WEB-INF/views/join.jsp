@@ -30,19 +30,19 @@
                		 <div id="warp-main">
 	                    <!-- 내용 -->
                         <div style="display: flex; justify-content: center;">
-                            <form>
+                            <div>
                                 <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
-                                    <div style="text-align: center;">                                                            
-                                        <h1>회원가입</h1>       
-                                        <div style="margin-top: 40px;">
-                                            <a href="./individualJoin"><button type="button">개인</button></a>
-                                            <a href="./companyJoin"><button type="button">기업</button></a>
-                                        </div>
-                                        <div style="margin: 16px;">
-                                            <a href="/"><button type="button">취소</button></a>
-                                        </div>
-                                    </div>          
-                            </form>        
+                                <div style="text-align: center;">                                                            
+                                    <h1>회원가입</h1>       
+                                    <div style="margin-top: 40px;">
+                                        <button onclick="location.href='./individualJoin'">개인</button>
+                                        <button onclick="location.href='./companyJoin'">기업</button>
+                                    </div>
+                                    <div style="margin: 16px;">
+                                        <button onclick="location.href='/'" >취소</button>
+                                    </div>
+                                </div>          
+                            </div>        
                         </div>
 	                </div>
                	</main>               
