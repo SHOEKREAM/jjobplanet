@@ -13,11 +13,13 @@
 }
 
 main { margin: 50px 0 }
-button, input[type="button"], input[type="submit"] {
+button, 
+input[type="button"], input[type="submit"], input[type="text"], input[type="email"], input[type="password"]  {
     width: 155px;
     height: 40px;
     background-color: transparent;
     border: solid #707070 1px;
+	padding: 0 8px;
 }
 button:hover{ cursor: pointer; }
 
@@ -25,7 +27,6 @@ dt, dd { display: inline-block; }
 dt { font-weight: bold; }
 li { list-style: none; }
 
-input[type="text"], input[type="email"], input[type="password"] { width : 170px; height :40px; }
 textarea { 
 	resize: none;
 	padding: 16px;
@@ -389,10 +390,3 @@ textarea {
     width: 200px;
     text-align: center;
 }
-
-.faq_question_row
-{
-    height: 50px;
-    line-height: 50px;
-}
-
