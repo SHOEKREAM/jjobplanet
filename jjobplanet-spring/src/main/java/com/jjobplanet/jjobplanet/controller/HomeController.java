@@ -118,6 +118,12 @@ public class HomeController {
 		return "noticeWrite";
 	}
 
+	@RequestMapping(value="/noticeWriteAction.do")
+	public String noticeWriteAction()
+	{
+		return "redirect:/notice";
+	}
+
 	@GetMapping("/join")
 	public String join() {
 		return "join";
