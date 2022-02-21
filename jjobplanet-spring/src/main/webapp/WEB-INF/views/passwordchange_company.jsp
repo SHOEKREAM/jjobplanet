@@ -33,13 +33,12 @@
                	<main>
                		 <div id="warp-main">
 	                    <!-- 내용 -->
-                        <div id = "main_company">
-                            <div id = "container">
-                                <div id = "side_menu_company">
-                                    <div id = side_menu_profile_image><span class="material-icons-outlined"><a href="./mypage_company">face</a></span></div>
-                                    <div> <a href="./passwordchange_company">비밀번호 변경</a></div>
-                                    <div><a href="./jobpostinglist">채용공고 작성내역</a></div>
-                                    <div> <a href="./recruitment">채용공고 작성</a></div>
+                            <div style="display: flex;" >
+                                <div style="width: 243px; height: 326px; text-align: center;">
+                                    <a href="./mypage_company" style="margin-top: 20px;"><span class="material-icons-outlined" style="font-size: 90px;">face</span></a>
+                                    <div style="margin-top: 20px;"><a href="./passwordchange_company">비밀번호 변경</a></div>
+                                    <div style="margin-top: 20px;"><a href="./jobpostinglist">채용공고 작성내역</a></div>
+                                    <div style="margin-top: 20px;"><a href="./recruitment">채용공고 작성</a></div>
                                 </div>
                                 <!-- 내용 -->
                                 <div class = "password_contents">
