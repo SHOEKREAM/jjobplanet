@@ -23,7 +23,6 @@
         
     </head>
     <body>
-
         <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
             <form name="individualJoin" id="individualJoin" method="post" action="joinOk.do">
                 <div>
@@ -55,6 +54,5 @@
                 </div>                                            
             </form>
         </div> 
-    
     </body>
 </html>
