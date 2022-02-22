@@ -23,7 +23,7 @@
 </div>
  
 
-<div id="search-history" style="display: none; position: absolute; width: 1200px; background-color: white;">
+<div id="search-history" style="display: none; position: absolute; width: 1200px; background-color: white; z-index: 999;">
     <div style="padding: 16px; ">
         <div style="font-weight: bold">최근 검색어</div>
         <div style="display: block;">
