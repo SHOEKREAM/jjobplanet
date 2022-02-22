@@ -3,6 +3,8 @@ package com.jjobplanet.jjobplanet.controller;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
+import com.jjobplanet.jjobplanet.databasemanager.DBManager;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -123,6 +125,12 @@ public class HomeController {
 	public String noticeWrite()
 	{
 		return "noticeWrite";
+	}
+
+	@RequestMapping(value="/noticeWriteAction.do")
+	public String noticeWriteAction()
+	{
+		return "redirect:/notice";
 	}
 
 	@GetMapping("/join")
