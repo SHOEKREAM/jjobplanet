@@ -23,7 +23,7 @@
     </head>
     <body>
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-            <form neme="findPassword" method="post" action="">
+            <form neme="findPassword" method="post" action="findPasswordOk.do">
                 <img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";>
                 <div class="join_div" style="display: flex; justify-content: center">                                   
                     <div style="text-align: center; margin-top: 40px;">

@@ -24,7 +24,7 @@
     <body>
 
         <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-                        <form name="companyJoin" method="post" action="">
+                        <form name="companyJoin" method="post" action="joinOk.do">
                             <div style="display: flex; justify-content: center;"><img style="width: 500px; height: auto;object-fit: cover;" src="./img/hire.png";></div>
                             <div> 
                                 

@@ -1,7 +1,5 @@
 package com.jjobplanet.jjobplanet.controller;
 
-import java.util.Optional;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 
