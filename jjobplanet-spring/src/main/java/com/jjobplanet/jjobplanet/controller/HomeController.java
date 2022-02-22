@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import com.jjobplanet.jjobplanet.model.indvDto;
 import com.jjobplanet.jjobplanet.model.indvVo;
+import com.jjobplanet.jjobplanet.databasemanager.DBManager;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -139,6 +140,12 @@ public class HomeController {
 	}
 	
 	
+
+	@RequestMapping(value="/noticeWriteAction.do")
+	public String noticeWriteAction()
+	{
+		return "redirect:/notice";
+	}
 
 	@GetMapping("/join")
 	public String join() {
