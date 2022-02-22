@@ -36,6 +36,13 @@ public class HomeController {
 		return "search";
 	}
 
+	@RequestMapping(value = "/search")
+	public String search() {
+		
+
+		return "search";
+	}
+
 
 	@GetMapping("/default")
 	public String default1() 
@@ -156,5 +163,11 @@ public class HomeController {
 	@GetMapping("/findPasswordOk")
 	public String findPasswordOk() {
 		return "findPasswordOk";
+	}
+
+	@GetMapping("/noticeeditor")
+	public String noticeeditor()
+	{
+		return "noticeeditor";
 	}
 }
