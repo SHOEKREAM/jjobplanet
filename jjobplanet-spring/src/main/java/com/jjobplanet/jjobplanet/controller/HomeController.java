@@ -130,9 +130,6 @@ public class HomeController {
 	@RequestMapping(value="/noticeWriteAction.do")
 	public String noticeWriteAction()
 	{
-		DBManager dbms = new DBManager();
-		dbms.DBOpen();
-
 		return "redirect:/notice";
 	}
 
