@@ -1,12 +1,20 @@
 package com.jjobplanet.jjobplanet.controller;
 
+import java.util.ArrayList;
+
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
+import com.jjobplanet.jjobplanet.model.indvDto;
+import com.jjobplanet.jjobplanet.model.indvVo;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
 
 @Controller
 public class HomeController {
@@ -32,13 +40,12 @@ public class HomeController {
 	@RequestMapping(value = "/search.do", method = RequestMethod.GET)
 	public String search(HttpServletRequest request) {
 		
-
-		return "search";
-	}
-
-	@RequestMapping(value = "/search")
-	public String search() {
 		
+		String q = request.getParameter("q");
+		Cookie cookie = new Cookie("search_history", q);
+		
+		cookie.setMaxAge(0);
+		cookie.setPath("/");
 
 		return "search";
 	}
@@ -119,21 +126,26 @@ public class HomeController {
 		return "faq";
 	}
 
-	@RequestMapping(value="/noticeWrite.do")
-	public String noticeWrite()
-	{
-		return "noticeWrite";
+	@RequestMapping(value="joinOk.do")
+	public String individualJoin(Model model) {
+		
+		//처리하는 부분
+		indvDto id = new indvDto();
+		ArrayList<indvVo> alist = id.selectAllUser();
+		
+		model.addAttribute("alist", alist);		
+		
+		return "joinOk.do";
 	}
+	
+	
 
 	@GetMapping("/join")
 	public String join() {
 		return "join";
 	}
 	
-	@GetMapping("/joinOk")
-	public String joinOk() {
-		return "joinOk";
-	}
+	
 
 	@GetMapping("/individualJoin")
 	public String individualJoin() {
@@ -150,6 +162,8 @@ public class HomeController {
 		return "login";
 	}
 
+	
+
 	@GetMapping("/loginOk")
 	public String loginOk() {
 		return "loginOk";
@@ -165,9 +179,5 @@ public class HomeController {
 		return "findPasswordOk";
 	}
 
-	@GetMapping("/noticeeditor")
-	public String noticeeditor()
-	{
-		return "noticeeditor";
-	}
+	
 }

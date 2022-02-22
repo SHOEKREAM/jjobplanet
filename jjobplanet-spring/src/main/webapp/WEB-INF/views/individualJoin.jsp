@@ -17,20 +17,22 @@
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
         
         <!-- SCRIPT-->
-        <script src="./app.js"></script>       
+        <script src="./app.js"></script>    
+        
+        
         
     </head>
     <body>
 
         <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-            <form name="individualJoin" method="post" action="">
+            <form name="individualJoin" id="individualJoin" method="post" action="joinOk.do">
                 <div>
                     <img style="width: 500px; height: auto;object-fit: cover;" src="./img/recruit.png";>
                     <div>
                         <h1>회원가입(개인)</h1>     
                         <div style="margin-top: 40px; display: block;">
-                            <input type="email"placeholder="이메일">
-                            <button>중복확인</button>
+                            <input type="email" name="umail" placeholder="이메일">
+                            <button onclick="">중복확인</button>
                         </div>
                         <div style="margin-top: 16px;">
                             <input type="password" size="20" name="upw" placeholder="비밀번호">
@@ -42,11 +44,11 @@
                         </div>
                         
                         <div style="margin-top: 16px;">    
-                            <input type="checkbox" style="margin-right: 8px;">약관에 동의합니다.
+                            <input type="checkbox" style="margin-right: 8px;" name="isAgree">약관에 동의합니다.
                         </div>
 
                         <div style="margin-top: 16px;">    
-                            <input type="submit"  value="가입완료" onclick="location='./joinOk'">
+                            <input type="submit"  value="가입완료">
                         </div>
                         
                     </div>
